@@ -1,0 +1,17 @@
+{
+  "collected_at": "2026-10-29T15:51:18-06:00",
+  "timezone": "America/Edmonton",
+  "listing_count": 90,
+  "priced_count": 89,
+  "make_count": 10,
+  "model_count": 47,
+  "sources": [
+    "Alberta AG Centre",
+    "Western Tractor"
+  ],
+  "paths": {
+    "json": "/workspace/prairiecomps/data/listings.json",
+    "csv": "/workspace/prairiecomps/data/listings.csv",
+    "market": "/workspace/prairiecomps/data/market_snapshot.json"
+  }
+}

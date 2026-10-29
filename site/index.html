@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PrairieComps — Used farm equipment prices in Alberta & the Prairies</title>
+  <meta name="description" content="Free asking-price comps for used farm and heavy equipment in Alberta and the Prairies." />
+  <meta name="theme-color" content="#1b4332" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">Prairie<span>Comps</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html" class="active">Home</a>
+        <a href="for-dealers.html">For Dealers</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-card">
+          <div class="badge">Alberta &amp; Prairies · Free MVP</div>
+          <h1>Used farm &amp; heavy equipment asking prices you can trust</h1>
+          <p class="lead">Search make/model comps built from public Alberta dealer listings. See median, low, and high asking prices — with links back to the source.</p>
+          <div class="stats">
+            <div class="stat"><div class="n">90</div><div class="l">Listings in dataset</div></div>
+            <div class="stat"><div class="n">47</div><div class="l">Model pages</div></div>
+            <div class="stat"><div class="n">$470,900</div><div class="l">Overall median ask</div></div>
+            <div class="stat"><div class="n">10</div><div class="l">Makes covered</div></div>
+          </div>
+          <div class="filters" role="search">
+            <input id="q" type="search" placeholder="Search make or model (e.g. John Deere 8R)" aria-label="Search make or model" />
+            <select id="make" aria-label="Filter by make"><option value="">All makes</option><option value="CLAAS">CLAAS</option>
+<option value="Case IH">Case IH</option>
+<option value="Horsch">Horsch</option>
+<option value="Horst">Horst</option>
+<option value="John Deere">John Deere</option>
+<option value="MacDon">MacDon</option>
+<option value="Misc">Misc</option>
+<option value="New Holland">New Holland</option>
+<option value="Unverferth">Unverferth</option>
+<option value="Vermeer">Vermeer</option></select>
+            <select id="province" aria-label="Filter by province"><option value="">All provinces</option><option value="AB">AB</option></select>
+            <button class="btn secondary" type="button" onclick="document.getElementById('q').value='';document.getElementById('make').value='';document.getElementById('province').value='';document.getElementById('q').dispatchEvent(new Event('input'))">Reset</button>
+          </div>
+          <p class="muted" style="margin:.75rem 0 0">Data refreshed 2026-10-29T15:51:18-06:00. Asking prices only — not appraisals.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <h2>Browse models</h2>
+        <div class="grid" id="model-grid">
+          <a class="card model-card" data-model-card href="models/john-deere-x9-1000.html" data-make="John Deere" data-provinces="AB" data-search="John Deere X9 1000 AB">
+  <h3>John Deere X9 1000</h3>
+  <div class="meta">10 listings · AB</div>
+  <div class="price-row"><div>$1,058,950<div class="meta">median ask</div></div>
+  <div><span>Low $1,039,000</span><br /><span>High $1,132,700</span></div></div>
+</a><a class="card model-card" data-model-card href="models/macdon-fd140.html" data-make="MacDon" data-provinces="AB" data-search="MacDon FD140 AB">
+  <h3>MacDon FD140</h3>
+  <div class="meta">8 listings · AB</div>
+  <div class="price-row"><div>$116,900<div class="meta">median ask</div></div>
+  <div><span>Low $107,900</span><br /><span>High $158,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-lexion-8700.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS LEXION 8700 AB">
+  <h3>CLAAS LEXION 8700</h3>
+  <div class="meta">5 listings · AB</div>
+  <div class="price-row"><div>$577,900<div class="meta">median ask</div></div>
+  <div><span>Low $577,900</span><br /><span>High $577,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-jaguar-960.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS JAGUAR 960 AB">
+  <h3>CLAAS JAGUAR 960</h3>
+  <div class="meta">4 listings · AB</div>
+  <div class="price-row"><div>$610,000<div class="meta">median ask</div></div>
+  <div><span>Low $429,900</span><br /><span>High $724,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-convio-1230.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS CONVIO 1230 AB">
+  <h3>CLAAS CONVIO 1230</h3>
+  <div class="meta">3 listings · AB</div>
+  <div class="price-row"><div>$161,900<div class="meta">median ask</div></div>
+  <div><span>Low $122,900</span><br /><span>High $161,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-jaguar-970.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS JAGUAR 970 AB">
+  <h3>CLAAS JAGUAR 970</h3>
+  <div class="meta">3 listings · AB</div>
+  <div class="price-row"><div>$573,900<div class="meta">median ask</div></div>
+  <div><span>Low $568,900</span><br /><span>High $595,000</span></div></div>
+</a><a class="card model-card" data-model-card href="models/macdon-fd135.html" data-make="MacDon" data-provinces="AB" data-search="MacDon FD135 AB">
+  <h3>MacDon FD135</h3>
+  <div class="meta">3 listings · AB</div>
+  <div class="price-row"><div>$109,900<div class="meta">median ask</div></div>
+  <div><span>Low $96,900</span><br /><span>High $119,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/macdon-fd250.html" data-make="MacDon" data-provinces="AB" data-search="MacDon FD250 AB">
+  <h3>MacDon FD250</h3>
+  <div class="meta">3 listings · AB</div>
+  <div class="price-row"><div>$191,900<div class="meta">median ask</div></div>
+  <div><span>Low $162,900</span><br /><span>High $191,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-axion-960tt.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS AXION 960TT AB">
+  <h3>CLAAS AXION 960TT</h3>
+  <div class="meta">2 listings · AB</div>
+  <div class="price-row"><div>$570,450<div class="meta">median ask</div></div>
+  <div><span>Low $509,000</span><br /><span>High $631,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-lexion-760.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS LEXION 760 AB">
+  <h3>CLAAS LEXION 760</h3>
+  <div class="meta">2 listings · AB</div>
+  <div class="price-row"><div>$300,900<div class="meta">median ask</div></div>
+  <div><span>Low $220,900</span><br /><span>High $380,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-lexion-760tt.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS LEXION 760TT AB">
+  <h3>CLAAS LEXION 760TT</h3>
+  <div class="meta">2 listings · AB</div>
+  <div class="price-row"><div>$382,900<div class="meta">median ask</div></div>
+  <div><span>Low $382,900</span><br /><span>High $382,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-orbis-600.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS ORBIS 600 AB">
+  <h3>CLAAS ORBIS 600</h3>
+  <div class="meta">2 listings · AB</div>
+  <div class="price-row"><div>$108,400<div class="meta">median ask</div></div>
+  <div><span>Low $88,900</span><br /><span>High $127,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-orbis-750.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS ORBIS 750 AB">
+  <h3>CLAAS ORBIS 750</h3>
+  <div class="meta">2 listings · AB</div>
+  <div class="price-row"><div>$160,900<div class="meta">median ask</div></div>
+  <div><span>Low $160,900</span><br /><span>High $160,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-orbis-900.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS ORBIS 900 AB">
+  <h3>CLAAS ORBIS 900</h3>
+  <div class="meta">2 listings · AB</div>
+  <div class="price-row"><div>$184,900<div class="meta">median ask</div></div>
+  <div><span>Low $119,900</span><br /><span>High $249,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/horsch-leeb-6-300vl.html" data-make="Horsch" data-provinces="AB" data-search="Horsch LEEB 6.300VL AB">
+  <h3>Horsch LEEB 6.300VL</h3>
+  <div class="meta">2 listings · AB</div>
+  <div class="price-row"><div>$687,000<div class="meta">median ask</div></div>
+  <div><span>Low $625,000</span><br /><span>High $749,000</span></div></div>
+</a><a class="card model-card" data-model-card href="models/john-deere-hd40r.html" data-make="John Deere" data-provinces="AB" data-search="John Deere HD40R AB">
+  <h3>John Deere HD40R</h3>
+  <div class="meta">2 listings · AB</div>
+  <div class="price-row"><div>$129,900<div class="meta">median ask</div></div>
+  <div><span>Low $129,900</span><br /><span>High $129,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/john-deere-n534f.html" data-make="John Deere" data-provinces="AB" data-search="John Deere N534F AB">
+  <h3>John Deere N534F</h3>
+  <div class="meta">2 listings · AB</div>
+  <div class="price-row"><div>$577,900<div class="meta">median ask</div></div>
+  <div><span>Low $577,900</span><br /><span>High $577,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/john-deere-s790.html" data-make="John Deere" data-provinces="AB" data-search="John Deere S790 AB">
+  <h3>John Deere S790</h3>
+  <div class="meta">2 listings · AB</div>
+  <div class="price-row"><div>$336,900<div class="meta">median ask</div></div>
+  <div><span>Low $333,900</span><br /><span>High $339,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/misc-rg1300c.html" data-make="Misc" data-provinces="AB" data-search="Misc RG1300C AB">
+  <h3>Misc RG1300C</h3>
+  <div class="meta">2 listings · AB</div>
+  <div class="price-row"><div>$465,400<div class="meta">median ask</div></div>
+  <div><span>Low $459,900</span><br /><span>High $470,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/new-holland-cr8-90.html" data-make="New Holland" data-provinces="AB" data-search="New Holland CR8.90 AB">
+  <h3>New Holland CR8.90</h3>
+  <div class="meta">2 listings · AB</div>
+  <div class="price-row"><div>$423,900<div class="meta">median ask</div></div>
+  <div><span>Low $359,900</span><br /><span>High $487,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/case-ih-3016.html" data-make="Case IH" data-provinces="AB" data-search="Case IH 3016 AB">
+  <h3>Case IH 3016</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$19,900<div class="meta">median ask</div></div>
+  <div><span>Low $19,900</span><br /><span>High $19,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/case-ih-8250.html" data-make="Case IH" data-provinces="AB" data-search="Case IH 8250 AB">
+  <h3>Case IH 8250</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$299,000<div class="meta">median ask</div></div>
+  <div><span>Low $299,000</span><br /><span>High $299,000</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-12-650.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS 12.650 AB">
+  <h3>CLAAS 12.650</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$577,900<div class="meta">median ask</div></div>
+  <div><span>Low $577,900</span><br /><span>High $577,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-48-inch-pall.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS 48 INCH PALL AB">
+  <h3>CLAAS 48 INCH PALL</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$1,800<div class="meta">median ask</div></div>
+  <div><span>Low $1,800</span><br /><span>High $1,800</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-8700.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS 8700 AB">
+  <h3>CLAAS 8700</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$499,000<div class="meta">median ask</div></div>
+  <div><span>Low $499,000</span><br /><span>High $499,000</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-970.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS 970 AB">
+  <h3>CLAAS 970</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$595,000<div class="meta">median ask</div></div>
+  <div><span>Low $595,000</span><br /><span>High $595,000</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-axion-860.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS AXION 860 AB">
+  <h3>CLAAS AXION 860</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$371,900<div class="meta">median ask</div></div>
+  <div><span>Low $371,900</span><br /><span>High $371,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-axion-940.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS AXION 940 AB">
+  <h3>CLAAS AXION 940</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$529,900<div class="meta">median ask</div></div>
+  <div><span>Low $529,900</span><br /><span>High $529,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-convio-flex.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS CONVIO FLEX AB">
+  <h3>CLAAS CONVIO FLEX</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$75,900<div class="meta">median ask</div></div>
+  <div><span>Low $75,900</span><br /><span>High $75,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-lexion-8600.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS LEXION 8600 AB">
+  <h3>CLAAS LEXION 8600</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$520,900<div class="meta">median ask</div></div>
+  <div><span>Low $520,900</span><br /><span>High $520,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-lexion-8800t.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS LEXION 8800T AB">
+  <h3>CLAAS LEXION 8800T</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$849,500<div class="meta">median ask</div></div>
+  <div><span>Low $849,500</span><br /><span>High $849,500</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-maxflex-1200.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS Maxflex 1200 AB">
+  <h3>CLAAS Maxflex 1200</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$29,500<div class="meta">median ask</div></div>
+  <div><span>Low $29,500</span><br /><span>High $29,500</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-xerion-4500.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS XERION 4500 AB">
+  <h3>CLAAS XERION 4500</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$596,900<div class="meta">median ask</div></div>
+  <div><span>Low $596,900</span><br /><span>High $596,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-xerion-5000.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS XERION 5000 AB">
+  <h3>CLAAS XERION 5000</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$699,900<div class="meta">median ask</div></div>
+  <div><span>Low $699,900</span><br /><span>High $699,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-xerion12-650.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS XERION12.650 AB">
+  <h3>CLAAS XERION12.650</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$744,900<div class="meta">median ask</div></div>
+  <div><span>Low $744,900</span><br /><span>High $744,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/horsch-joker-rx30.html" data-make="Horsch" data-provinces="AB" data-search="Horsch JOKER RX30 AB">
+  <h3>Horsch JOKER RX30</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$895,900<div class="meta">median ask</div></div>
+  <div><span>Low $895,900</span><br /><span>High $895,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/horsch-joker-rx35.html" data-make="Horsch" data-provinces="AB" data-search="Horsch JOKER RX35 AB">
+  <h3>Horsch JOKER RX35</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$895,900<div class="meta">median ask</div></div>
+  <div><span>Low $895,900</span><br /><span>High $895,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/horsch-leeb-8-460vl.html" data-make="Horsch" data-provinces="AB" data-search="Horsch LEEB 8.460VL AB">
+  <h3>Horsch LEEB 8.460VL</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$895,900<div class="meta">median ask</div></div>
+  <div><span>Low $895,900</span><br /><span>High $895,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/horsch-maestro-3215.html" data-make="Horsch" data-provinces="AB" data-search="Horsch MAESTRO 3215 AB">
+  <h3>Horsch MAESTRO 3215</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$895,900<div class="meta">median ask</div></div>
+  <div><span>Low $895,900</span><br /><span>High $895,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/horsch-maestro-4815.html" data-make="Horsch" data-provinces="AB" data-search="Horsch MAESTRO 4815 AB">
+  <h3>Horsch MAESTRO 4815</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$895,900<div class="meta">median ask</div></div>
+  <div><span>Low $895,900</span><br /><span>High $895,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/horst-hd5500.html" data-make="Horst" data-provinces="AB" data-search="Horst HD5500 AB">
+  <h3>Horst HD5500</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$1,650<div class="meta">median ask</div></div>
+  <div><span>Low $1,650</span><br /><span>High $1,650</span></div></div>
+</a><a class="card model-card" data-model-card href="models/john-deere-7230r.html" data-make="John Deere" data-provinces="AB" data-search="John Deere 7230R AB">
+  <h3>John Deere 7230R</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$124,900<div class="meta">median ask</div></div>
+  <div><span>Low $124,900</span><br /><span>High $124,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/john-deere-9rx-640.html" data-make="John Deere" data-provinces="AB" data-search="John Deere 9RX 640 AB">
+  <h3>John Deere 9RX 640</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$979,000<div class="meta">median ask</div></div>
+  <div><span>Low $979,000</span><br /><span>High $979,000</span></div></div>
+</a><a class="card model-card" data-model-card href="models/john-deere-9rx-710.html" data-make="John Deere" data-provinces="AB" data-search="John Deere 9RX 710 AB">
+  <h3>John Deere 9RX 710</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$1,275,100<div class="meta">median ask</div></div>
+  <div><span>Low $1,275,100</span><br /><span>High $1,275,100</span></div></div>
+</a><a class="card model-card" data-model-card href="models/macdon-fd145.html" data-make="MacDon" data-provinces="AB" data-search="MacDon FD145 AB">
+  <h3>MacDon FD145</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$144,900<div class="meta">median ask</div></div>
+  <div><span>Low $144,900</span><br /><span>High $144,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/unverferth-cart-1613.html" data-make="Unverferth" data-provinces="AB" data-search="Unverferth CART 1613 AB">
+  <h3>Unverferth CART 1613</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>$180,000<div class="meta">median ask</div></div>
+  <div><span>Low $180,000</span><br /><span>High $180,000</span></div></div>
+</a><a class="card model-card" data-model-card href="models/vermeer-bpx9010.html" data-make="Vermeer" data-provinces="AB" data-search="Vermeer BPX9010 AB">
+  <h3>Vermeer BPX9010</h3>
+  <div class="meta">1 listing · AB</div>
+  <div class="price-row"><div>—<div class="meta">median ask</div></div>
+  <div><span>Low —</span><br /><span>High —</span></div></div>
+</a>
+        </div>
+        <p id="empty-state" class="muted hidden">No models match those filters.</p>
+      </div>
+    </section>
+    
+    <section class="section">
+      <div class="wrap">
+        <h2>Prairie market snapshot (published aggregates)</h2>
+        <p class="muted">Attributed to <a href="https://www.machineryone.ca/market" rel="noopener">Machinery One’s public market page</a>. Dealer asking prices, not sale prices. PrairieComps does not scrape their listing inventory.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Province</th><th>Listings tracked</th><th>Median ask</th><th>Range</th></tr></thead>
+            <tbody>
+              <tr><td>Alberta</td><td>2,547</td><td>$129,900</td><td>$10,000 – $2,200,000</td></tr><tr><td>Saskatchewan</td><td>1,209</td><td>$148,750</td><td>$10,495 – $1,096,800</td></tr><tr><td>British Columbia</td><td>998</td><td>$96,700</td><td>$10,985 – $1,395,000</td></tr><tr><td>Manitoba</td><td>412</td><td>$68,500</td><td>$10,000 – $765,000</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <strong>PrairieComps</strong>
+        <p>Asking-price comps for used farm &amp; heavy equipment across Alberta and the Prairies. Free for buyers; featured placement for dealers.</p>
+      </div>
+      <div>
+        <strong>Disclaimer</strong>
+        <p>Prices shown are <em>asking prices</em> from public dealer listings, not appraisals, auction hammer prices, or guaranteed sale values. Always verify with the seller and inspect equipment before buying.</p>
+      </div>
+      <div>
+        <strong>Contact</strong>
+        <p>General: <a href="mailto:hello@prairiecomps.example">hello@prairiecomps.example</a><br />
+        Dealers: <a href="mailto:dealers@prairiecomps.example">dealers@prairiecomps.example</a></p>
+        <p class="muted">Based in Red Deer, Alberta. Street address intentionally omitted.</p>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>© 2026 PrairieComps · MVP</span>
+      <span>Not affiliated with any OEM or auction house.</span>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

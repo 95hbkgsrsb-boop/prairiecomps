@@ -1,0 +1,2 @@
+# Optional: only needed for screenshots / browser tooling
+playwright>=1.40
