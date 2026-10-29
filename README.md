@@ -1,6 +1,6 @@
 # PrairieComps (MVP)
 
-Free asking-price comps for used farm & heavy equipment in Alberta and the Prairies.
+Free asking-price comps for used farm & heavy equipment in Alberta, Saskatchewan, and Manitoba (the Prairies).
 
 ## Quick start
 
@@ -26,7 +26,15 @@ Open http://127.0.0.1:8080/
 
 ## Hosting
 
-No authenticated deploy CLI was found on this box (`gh` logged out; no netlify/wrangler/vercel/surge). See report for go-live options (GitHub Pages or Cloudflare Pages recommended).
+Live on GitHub Pages: https://95hbkgsrsb-boop.github.io/prairiecomps/
+
+Publish `/site` with:
+
+```bash
+git branch -D gh-pages 2>/dev/null || true
+git subtree split --prefix site -b gh-pages
+git push origin gh-pages --force
+```
 
 ## Disclaimer
 

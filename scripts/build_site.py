@@ -17,8 +17,8 @@ DATA = ROOT / "data"
 SITE = ROOT / "site"
 TZ = ZoneInfo("America/Edmonton")
 
-CONTACT_EMAIL = "dealers@prairiecomps.example"  # placeholder
-GENERAL_EMAIL = "hello@prairiecomps.example"  # placeholder
+CONTACT_EMAIL = "chinookcall@mail.grokbot.com"
+GENERAL_EMAIL = "chinookcall@mail.grokbot.com"
 
 
 def slugify(text: str) -> str:
@@ -56,14 +56,62 @@ def group_models(listings: list[dict]) -> dict[str, list[dict]]:
     return groups
 
 
+# Category floors for "obviously bad" asking prices (CAD). Used only to
+# exclude outliers from medians/low/high — listings still appear in tables.
+CATEGORY_PRICE_FLOOR = {
+    "combine": 25000,
+    "track tractor": 40000,
+    "tractor": 15000,
+    "self-propelled sprayer": 40000,
+    "sprayer": 15000,
+    "windrower": 20000,
+    "forage harvester": 40000,
+}
+
+def is_price_outlier(row: dict, peer_prices: list[int] | None = None) -> bool:
+    """Flag obviously bad asking prices (e.g. $1,800 combine)."""
+    price = row.get("price_cad")
+    if not price or not isinstance(price, (int, float)):
+        return False
+    price = int(price)
+    if price < 1000:
+        return True
+    cat = (row.get("category") or "").strip().lower()
+    for key, floor in CATEGORY_PRICE_FLOOR.items():
+        if key in cat and price < floor:
+            return True
+    # Title/model heuristic for combines without category
+    blob = f"{row.get('make','')} {row.get('model','')} {cat}".lower()
+    if any(k in blob for k in ("combine", "lexion", " cr ", "s7", "x9", "8250", "7230")) and price < 25000:
+        # avoid false positives on headers/small attachments by requiring combine-ish tokens
+        if "header" not in blob and "platform" not in blob and "pall" not in blob:
+            if any(k in blob for k in ("combine", "lexion", "cr8", "cr9", "s780", "s790", "x9", "8250")):
+                return True
+    # Relative outlier vs peers (same model): below 15% of peer median
+    if peer_prices and len(peer_prices) >= 3:
+        peers = sorted(peer_prices)
+        med = peers[len(peers) // 2]
+        if med and price < max(1000, int(med * 0.15)):
+            return True
+    return False
+
+
 def model_stats(rows: list[dict]) -> dict:
-    prices = sorted(r["price_cad"] for r in rows if r.get("price_cad"))
+    peer = [int(r["price_cad"]) for r in rows if r.get("price_cad")]
+    for r in rows:
+        r["_outlier"] = bool(r.get("outlier")) or is_price_outlier(r, peer)
+    prices = sorted(r["price_cad"] for r in rows if r.get("price_cad") and not r.get("_outlier"))
+    # Fall back to all prices if everything was flagged
+    if not prices:
+        prices = sorted(r["price_cad"] for r in rows if r.get("price_cad"))
     hours = [r["hours"] for r in rows if r.get("hours") is not None]
     years = [r["year"] for r in rows if r.get("year")]
     provinces = sorted({r.get("province") for r in rows if r.get("province")})
+    outlier_count = sum(1 for r in rows if r.get("_outlier"))
     return {
         "count": len(rows),
         "priced_count": len(prices),
+        "outlier_count": outlier_count,
         "median": int(median(prices)) if prices else None,
         "low": prices[0] if prices else None,
         "high": prices[-1] if prices else None,
@@ -434,8 +482,9 @@ def main() -> None:
         trs = []
         for r in rows_sorted:
             hrs = f"{r['hours']:,}" if r.get("hours") is not None else "—"
+            flag = ' <span class="muted">(outlier — excluded from median)</span>' if r.get("_outlier") else ""
             trs.append(
-                f"<tr><td>{r.get('year') or '—'}</td><td>{hrs}</td><td>{money(r.get('price_cad'))}</td>"
+                f"<tr><td>{r.get('year') or '—'}</td><td>{hrs}</td><td>{money(r.get('price_cad'))}{flag}</td>"
                 f"<td>{r.get('location') or '—'}</td><td>{r.get('source')}</td>"
                 f"<td><a href=\"{r.get('source_url')}\" rel=\"noopener nofollow\" target=\"_blank\">View listing</a></td></tr>"
             )
@@ -502,7 +551,7 @@ def main() -> None:
               <li>Dealer name + link on comps</li>
               <li>Monthly performance snapshot (email)</li>
             </ul>
-            <a class="mailto" href="mailto:{CONTACT_EMAIL}?subject=PrairieComps%20Featured%20%2499%2Fmo%20interest&body=Hi%20PrairieComps%2C%0A%0AI%27m%20interested%20in%20Featured%20placement%20(%2499%20CAD%2Fmo).%0A%0ADealership%3A%0ACity%2FProvince%3A%0AWebsite%3A%0AContact%20name%3A%0APhone%3A%0A">Email interest — Featured</a>
+            <a class="mailto" href="mailto:{CONTACT_EMAIL}?subject=PrairieComps%20Featured%20placement%20interest%20(%2499%2Fmo%20CAD)&body=Hi%20PrairieComps%2C%0A%0AI%27m%20interested%20in%20Featured%20placement%20(%2499%20CAD%2Fmo).%0A%0ADealership%3A%0ACity%2FProvince%3A%0AWebsite%3A%0AContact%20name%3A%0APhone%3A%0A">Email interest — Featured</a>
           </div>
           <div class="tier">
             <h3>Premium</h3>
@@ -514,7 +563,7 @@ def main() -> None:
               <li>Up to 75 highlighted listings</li>
               <li>Early access to B2B data exports (later)</li>
             </ul>
-            <a class="mailto" href="mailto:{CONTACT_EMAIL}?subject=PrairieComps%20Premium%20%24199%2Fmo%20interest&body=Hi%20PrairieComps%2C%0A%0AI%27m%20interested%20in%20Premium%20placement%20(%24199%20CAD%2Fmo).%0A%0ADealership%3A%0ACity%2FProvince%3A%0AWebsite%3A%0AContact%20name%3A%0APhone%3A%0A">Email interest — Premium</a>
+            <a class="mailto" href="mailto:{CONTACT_EMAIL}?subject=PrairieComps%20Premium%20placement%20interest%20(%24199%2Fmo%20CAD)&body=Hi%20PrairieComps%2C%0A%0AI%27m%20interested%20in%20Premium%20placement%20(%24199%20CAD%2Fmo).%0A%0ADealership%3A%0ACity%2FProvince%3A%0AWebsite%3A%0AContact%20name%3A%0APhone%3A%0A">Email interest — Premium</a>
           </div>
         </div>
         <div class="callout" style="margin-top:1.25rem">
@@ -543,7 +592,7 @@ def main() -> None:
         <h2>Business model</h2>
         <p>Buyers use the site free. Later, dealers can pay <strong>$99–$199 CAD/mo</strong> for Featured / Premium placement and claimed dealer pages. B2B data products are on the roadmap.</p>
         <h2>Who’s behind it</h2>
-        <p>Built for Phillip Herrod in Red Deer, Alberta. Contact: <a href="mailto:{GENERAL_EMAIL}">{GENERAL_EMAIL}</a> (placeholder).</p>
+        <p>Built for Phillip Herrod in Red Deer, Alberta. Contact: <a href="mailto:{GENERAL_EMAIL}">{GENERAL_EMAIL}</a>.</p>
         <div class="callout">Disclaimer: prices are asking prices from public listings and may be incomplete, outdated, or wrong. Confirm every detail with the seller and inspect the machine before you buy.</div>
       </div>
     </section>
@@ -568,6 +617,7 @@ def main() -> None:
 """,
     )
 
+    (SITE / ".nojekyll").write_text("", encoding="utf-8")
     print(f"Built site with {len(listings)} listings, {len(top)} model pages → {SITE}")
 
 

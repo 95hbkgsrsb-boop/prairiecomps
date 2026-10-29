@@ -1,12 +1,15 @@
 {
-  "collected_at": "2026-10-29T15:51:18-06:00",
+  "collected_at": "2026-10-29T16:17:47-06:00",
   "timezone": "America/Edmonton",
-  "listing_count": 90,
-  "priced_count": 89,
-  "make_count": 10,
-  "model_count": 47,
+  "listing_count": 207,
+  "priced_count": 199,
+  "make_count": 51,
+  "model_count": 142,
   "sources": [
     "Alberta AG Centre",
+    "Flaman Agriculture",
+    "Full Line Ag",
+    "Prairie Sales",
     "Western Tractor"
   ],
   "paths": {

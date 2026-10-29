@@ -1,91 +1,208 @@
-make,model,year,hours,price_cad,location,province,category,source,source_url,date_seen
-CLAAS,48 INCH PALL,2019,,1800,"STETTLER, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/claas-48-inch-pall-2019/,2026-10-29T15:46:04-06:00
-Horst,HD5500,2023,,1650,"HIGH RIVER, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horst-hd5500-2023/,2026-10-29T15:46:04-06:00
-Unverferth,CART 1613,2023,,180000,"HIGH RIVER, AB",AB,Grain Cart,Alberta AG Centre,https://ab-ag.ca/listings/unverferth-cart-1613-2023/,2026-10-29T15:46:04-06:00
-Horsch,JOKER RX30,2023,,895900,"DUNMORE, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horsch-joker-rx30-2023/,2026-10-29T15:46:04-06:00
-Vermeer,BPX9010,2025,,,"STETTLER, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/vermeer-bpx9010-2025/,2026-10-29T15:46:04-06:00
-CLAAS,AXION 960TT,2024,,631900,"STETTLER, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-axion-960tt-2024/,2026-10-29T15:46:04-06:00
-Case IH,8250,2021,1468,299000,"COALDALE, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/case-ih-8250-2021-4/,2026-10-29T15:46:04-06:00
-John Deere,7230R,2012,,124900,"DUNMORE, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/john-deere-7230r-2012/,2026-10-29T15:46:04-06:00
-CLAAS,Maxflex 1200,2013,,29500,"HIGH RIVER, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/claas-maxflex-1200-2013/,2026-10-29T15:46:04-06:00
-John Deere,S790,2018,2221,339900,"HIGH RIVER, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/john-deere-s790-2018/,2026-10-29T15:46:04-06:00
-CLAAS,JAGUAR 960,2022,1096,625000,"STETTLER, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-960-2022-2/,2026-10-29T15:46:04-06:00
-CLAAS,ORBIS 900,2024,,249900,"LOUGHEED, AB",AB,Header Forage,Alberta AG Centre,https://ab-ag.ca/listings/claas-orbis-900-2024/,2026-10-29T15:46:04-06:00
-CLAAS,ORBIS 600,2022,,127900,"COALDALE, AB",AB,Header Forage,Alberta AG Centre,https://ab-ag.ca/listings/claas-orbis-600-2022/,2026-10-29T15:46:04-06:00
-John Deere,HD40R,2021,,129900,"HIGH RIVER, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/john-deere-hd40r-2021/,2026-10-29T15:46:04-06:00
-John Deere,HD40R,2021,,129900,"HIGH RIVER, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/john-deere-hd40r-2021-2/,2026-10-29T15:46:04-06:00
-Horsch,JOKER RX35,2023,,895900,"LOUGHEED, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horsch-joker-rx35-2023/,2026-10-29T15:46:04-06:00
-Horsch,MAESTRO 3215,2023,,895900,"COALDALE, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horsch-maestro-3215-2023/,2026-10-29T15:46:04-06:00
-Horsch,MAESTRO 4815,2023,,895900,"OLDS, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horsch-maestro-4815-2023/,2026-10-29T15:46:04-06:00
-CLAAS,CONVIO 1230,2023,,161900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/claas-convio-1230-2023/,2026-10-29T15:46:04-06:00
-CLAAS,CONVIO 1230,2023,,161900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/claas-convio-1230-2023-2/,2026-10-29T15:46:04-06:00
-CLAAS,8700,2021,1473,499000,"OLDS, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-8700-2021/,2026-10-29T15:46:04-06:00
-CLAAS,JAGUAR 960,2024,,724900,"LOUGHEED, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-960-2024/,2026-10-29T15:46:04-06:00
-MacDon,FD140,2019,,127900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2019/,2026-10-29T15:46:04-06:00
-MacDon,FD145,2021,,144900,"LOUGHEED, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd145-2021/,2026-10-29T15:46:04-06:00
-MacDon,FD140,2018,,107900,"STETTLER, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2018/,2026-10-29T15:46:04-06:00
-MacDon,FD140,2022,,158900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2022/,2026-10-29T15:46:04-06:00
-MacDon,FD135,2020,,109900,"OLDS, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd135-2020/,2026-10-29T15:46:04-06:00
-John Deere,S790,2018,2366,333900,"HIGH RIVER, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/john-deere-s790-2018-2/,2026-10-29T15:46:04-06:00
-CLAAS,CONVIO 1230,2023,,122900,"HIGH RIVER, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/claas-convio-1230-2023-4/,2026-10-29T15:46:04-06:00
-Case IH,3016,2015,,19900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/case-ih-3016-2015/,2026-10-29T15:46:04-06:00
-Misc,RG1300C,2022,,459900,"HIGH RIVER, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/misc-rg1300c-2022/,2026-10-29T15:46:04-06:00
-MacDon,FD250,2024,,191900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd250-2024/,2026-10-29T15:46:04-06:00
-CLAAS,12.650,2026,,577900,"COALDALE, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-12-650-2026/,2026-10-29T15:46:04-06:00
-CLAAS,LEXION 760,2019,1296,380900,"LOUGHEED, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-760-2019/,2026-10-29T15:46:04-06:00
-MacDon,FD135,2021,,119900,"OLDS, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd135-2021/,2026-10-29T15:46:04-06:00
-CLAAS,AXION 940,2021,,529900,"OLDS, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-axion-940-2021/,2026-10-29T15:46:04-06:00
-CLAAS,JAGUAR 960,2021,1433,595000,"OLDS, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-960-2021/,2026-10-29T15:46:04-06:00
-Misc,RG1300C,2022,,470900,"HIGH RIVER, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/misc-rg1300c-2022-2/,2026-10-29T15:46:04-06:00
-CLAAS,ORBIS 750,2022,,160900,"DUNMORE, AB",AB,Header Forage,Alberta AG Centre,https://ab-ag.ca/listings/claas-orbis-750-2022-2/,2026-10-29T15:46:04-06:00
-CLAAS,LEXION 8800T,2023,1009,849500,"HIGH RIVER, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-8800tt-2023/,2026-10-29T15:46:04-06:00
-CLAAS,JAGUAR 970,2022,1862,573900,"COALDALE, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-970-2022-4/,2026-10-29T15:46:04-06:00
-CLAAS,LEXION 8700,2022,1106,577900,"OLDS, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-lexion-8700-2022/,2026-10-29T15:46:04-06:00
-CLAAS,LEXION 8700,2022,1124,577900,"OLDS, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-lexion-8700-2022-2/,2026-10-29T15:46:04-06:00
-CLAAS,LEXION 8700,2022,1113,577900,"OLDS, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-lexion-8700-2022-3/,2026-10-29T15:46:04-06:00
-CLAAS,LEXION 8700,2022,1104,577900,"OLDS, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-lexion-8700-2022-4/,2026-10-29T15:46:04-06:00
-CLAAS,LEXION 8700,2022,1125,577900,"OLDS, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-lexion-8700-2022-5/,2026-10-29T15:46:04-06:00
-CLAAS,XERION 5000,2024,,699900,"COALDALE, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-5000-2024/,2026-10-29T15:46:04-06:00
-CLAAS,XERION12.650,2023,,744900,"OLDS, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-xerion-12-650-trac-2023/,2026-10-29T15:46:04-06:00
-MacDon,FD250,2022,,162900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd250-2022/,2026-10-29T15:46:04-06:00
-CLAAS,970,2022,1587,595000,"COALDALE, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-970-2022-2/,2026-10-29T15:46:04-06:00
-CLAAS,LEXION 760,2016,2627,220900,"OLDS, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-760-2016/,2026-10-29T15:46:04-06:00
-Horsch,LEEB 6.300VL,2021,,625000,"STETTLER, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horsch-6-300vl-2021/,2026-10-29T15:46:04-06:00
-Horsch,LEEB 6.300VL,2023,,749000,"HIGH RIVER, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horsch-leeb-6-300-2023/,2026-10-29T15:46:04-06:00
-CLAAS,XERION 4500,2024,,596900,"COALDALE, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-xerion-4500-2024/,2026-10-29T15:46:04-06:00
-John Deere,N534F,2024,,577900,"COALDALE, AB",AB,Air Seeder,Alberta AG Centre,https://ab-ag.ca/listings/john-deere-n534f-2024/,2026-10-29T15:46:04-06:00
-John Deere,N534F,2024,,577900,"COALDALE, AB",AB,Air Seeder,Alberta AG Centre,https://ab-ag.ca/listings/john-deere-n534f-2024-2/,2026-10-29T15:46:04-06:00
-Horsch,LEEB 8.460VL,2025,,895900,"COALDALE, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horsch-leeb-8-460vl-2025/,2026-10-29T15:46:04-06:00
-CLAAS,CONVIO FLEX,2020,,75900,"HIGH RIVER, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/claas-convio-flex-2020/,2026-10-29T15:46:04-06:00
-CLAAS,ORBIS 900,2017,,119900,"OLDS, AB",AB,Header Forage,Alberta AG Centre,https://ab-ag.ca/listings/claas-orbis-900-2017/,2026-10-29T15:46:04-06:00
-CLAAS,LEXION 760TT,2018,1940,382900,"COALDALE, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-lexion-760tt-2018-2/,2026-10-29T15:46:04-06:00
-CLAAS,LEXION 760TT,2018,1980,382900,"COALDALE, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-lexion-760tt-2018/,2026-10-29T15:46:04-06:00
-CLAAS,AXION 860,2024,,371900,"COALDALE, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-axion-860-2024/,2026-10-29T15:46:04-06:00
-MacDon,FD250,2024,,191900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd250-2024-2/,2026-10-29T15:46:04-06:00
-CLAAS,ORBIS 600,2017,,88900,"OLDS, AB",AB,Header Forage,Alberta AG Centre,https://ab-ag.ca/listings/claas-orbis-600-2017-2/,2026-10-29T15:46:04-06:00
-CLAAS,ORBIS 750,2022,,160900,"DUNMORE, AB",AB,Header Forage,Alberta AG Centre,https://ab-ag.ca/listings/claas-orbis-750-2022-4/,2026-10-29T15:46:04-06:00
-MacDon,FD140,2021,,116900,"OLDS, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2021/,2026-10-29T15:46:04-06:00
-MacDon,FD140,2021,,116900,"OLDS, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2021-2/,2026-10-29T15:46:04-06:00
-MacDon,FD140,2021,,116900,"OLDS, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2021-3/,2026-10-29T15:46:04-06:00
-MacDon,FD140,2021,,116900,"OLDS, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2021-4/,2026-10-29T15:46:04-06:00
-MacDon,FD140,2021,,116900,"OLDS, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2021-5/,2026-10-29T15:46:04-06:00
-CLAAS,JAGUAR 970,2022,1742,595000,"COALDALE, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-970-2022-3/,2026-10-29T15:46:04-06:00
-CLAAS,AXION 960TT,2021,,509000,"COALDALE, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-axion-960tt-2021/,2026-10-29T15:46:04-06:00
-CLAAS,LEXION 8600,2021,792,520900,"LOUGHEED, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-8600-2021/,2026-10-29T15:46:04-06:00
-CLAAS,JAGUAR 970,2022,1883,568900,"DUNMORE, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-970-2022-5/,2026-10-29T15:46:04-06:00
-MacDon,FD135,2019,,96900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd135-2019/,2026-10-29T15:46:04-06:00
-CLAAS,JAGUAR 960,2019,2086,429900,"DUNMORE, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-960-2019/,2026-10-29T15:46:04-06:00
-New Holland,CR8.90,2020,1715,359900,"COALDALE, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/new-holland-cr8-90-2020/,2026-10-29T15:46:04-06:00
-New Holland,CR8.90,2022,1326,487900,"COALDALE, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/new-holland-cr8-90-2022/,2026-10-29T15:46:04-06:00
-John Deere,9RX 710,2025,432,1275100,"TABER, AB",AB,Track Tractor,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T15:51:18-06:00
-John Deere,X9 1000,2025,393,1132700,"LETHBRIDGE, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T15:51:18-06:00
-John Deere,X9 1000,2025,460,1119000,"County of Forty Mile, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T15:51:18-06:00
-John Deere,X9 1000,2025,666,1102200,"LETHBRIDGE, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T15:51:18-06:00
-John Deere,X9 1000,2025,383,1075800,"MEDICINE HAT, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T15:51:18-06:00
-John Deere,X9 1000,2025,495,1060000,"TABER, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T15:51:18-06:00
-John Deere,X9 1000,2025,340,1057900,"MEDICINE HAT, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T15:51:18-06:00
-John Deere,X9 1000,2025,383,1052700,"County of Forty Mile, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T15:51:18-06:00
-John Deere,X9 1000,2025,378,1052700,"TABER, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T15:51:18-06:00
-John Deere,X9 1000,2025,502,1044300,"TABER, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T15:51:18-06:00
-John Deere,X9 1000,2025,530,1039000,"MEDICINE HAT, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T15:51:18-06:00
-John Deere,9RX 640,2025,1095,979000,"LETHBRIDGE, AB",AB,Track Tractor,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T15:51:18-06:00
+make,model,year,hours,price_cad,location,province,category,source,source_url,date_seen,outlier
+CLAAS,48 INCH PALL,2019,,1800,"STETTLER, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/claas-48-inch-pall-2019/,2026-10-29T16:10:40-06:00,False
+Horst,HD5500,2023,,1650,"HIGH RIVER, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horst-hd5500-2023/,2026-10-29T16:10:40-06:00,False
+Unverferth,CART 1613,2023,,180000,"HIGH RIVER, AB",AB,Grain Cart,Alberta AG Centre,https://ab-ag.ca/listings/unverferth-cart-1613-2023/,2026-10-29T16:10:40-06:00,False
+Horsch,JOKER RX30,2023,,895900,"DUNMORE, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horsch-joker-rx30-2023/,2026-10-29T16:10:40-06:00,False
+Vermeer,BPX9010,2025,,,"STETTLER, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/vermeer-bpx9010-2025/,2026-10-29T16:10:40-06:00,False
+CLAAS,AXION 960TT,2024,,631900,"STETTLER, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-axion-960tt-2024/,2026-10-29T16:10:40-06:00,False
+Case IH,8250,2021,1468,299000,"COALDALE, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/case-ih-8250-2021-4/,2026-10-29T16:10:40-06:00,False
+John Deere,7230R,2012,,124900,"DUNMORE, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/john-deere-7230r-2012/,2026-10-29T16:10:40-06:00,False
+CLAAS,Maxflex 1200,2013,,29500,"HIGH RIVER, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/claas-maxflex-1200-2013/,2026-10-29T16:10:40-06:00,False
+John Deere,S790,2018,2221,339900,"HIGH RIVER, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/john-deere-s790-2018/,2026-10-29T16:10:40-06:00,False
+CLAAS,JAGUAR 960,2022,1096,625000,"STETTLER, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-960-2022-2/,2026-10-29T16:10:40-06:00,False
+CLAAS,ORBIS 900,2024,,249900,"LOUGHEED, AB",AB,Header Forage,Alberta AG Centre,https://ab-ag.ca/listings/claas-orbis-900-2024/,2026-10-29T16:10:40-06:00,False
+CLAAS,ORBIS 600,2022,,127900,"COALDALE, AB",AB,Header Forage,Alberta AG Centre,https://ab-ag.ca/listings/claas-orbis-600-2022/,2026-10-29T16:10:40-06:00,False
+John Deere,HD40R,2021,,129900,"HIGH RIVER, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/john-deere-hd40r-2021/,2026-10-29T16:10:40-06:00,False
+John Deere,HD40R,2021,,129900,"HIGH RIVER, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/john-deere-hd40r-2021-2/,2026-10-29T16:10:40-06:00,False
+Horsch,JOKER RX35,2023,,895900,"LOUGHEED, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horsch-joker-rx35-2023/,2026-10-29T16:10:40-06:00,False
+Horsch,MAESTRO 3215,2023,,895900,"COALDALE, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horsch-maestro-3215-2023/,2026-10-29T16:10:40-06:00,False
+Horsch,MAESTRO 4815,2023,,895900,"OLDS, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horsch-maestro-4815-2023/,2026-10-29T16:10:40-06:00,False
+CLAAS,CONVIO 1230,2023,,161900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/claas-convio-1230-2023/,2026-10-29T16:10:40-06:00,False
+CLAAS,CONVIO 1230,2023,,161900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/claas-convio-1230-2023-2/,2026-10-29T16:10:40-06:00,False
+CLAAS,CONVIO 1230,2023,,161900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/claas-convio-1230-2023-3/,2026-10-29T16:10:40-06:00,False
+CLAAS,8700,2021,1473,499000,"OLDS, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-8700-2021/,2026-10-29T16:10:40-06:00,False
+CLAAS,JAGUAR 960,2024,,724900,"LOUGHEED, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-960-2024/,2026-10-29T16:10:40-06:00,False
+MacDon,FD145,2021,,144900,"LOUGHEED, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd145-2021/,2026-10-29T16:10:40-06:00,False
+MacDon,FD140,2018,,107900,"STETTLER, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2018/,2026-10-29T16:10:40-06:00,False
+MacDon,FD140,2022,,158900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2022/,2026-10-29T16:10:40-06:00,False
+MacDon,FD135,2020,,109900,"OLDS, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd135-2020/,2026-10-29T16:10:40-06:00,False
+John Deere,S790,2018,2366,333900,"HIGH RIVER, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/john-deere-s790-2018-2/,2026-10-29T16:10:40-06:00,False
+CLAAS,CONVIO 1230,2023,,122900,"HIGH RIVER, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/claas-convio-1230-2023-4/,2026-10-29T16:10:40-06:00,False
+Case IH,3016,2015,,19900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/case-ih-3016-2015/,2026-10-29T16:10:40-06:00,False
+Misc,RG1300C,2022,,459900,"HIGH RIVER, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/misc-rg1300c-2022/,2026-10-29T16:10:40-06:00,False
+MacDon,FD250,2024,,191900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd250-2024/,2026-10-29T16:10:40-06:00,False
+CLAAS,12.650,2026,,577900,"COALDALE, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-12-650-2026/,2026-10-29T16:10:40-06:00,False
+CLAAS,LEXION 760,2019,1296,380900,"LOUGHEED, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-760-2019/,2026-10-29T16:10:40-06:00,False
+MacDon,FD135,2021,,119900,"OLDS, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd135-2021/,2026-10-29T16:10:40-06:00,False
+CLAAS,AXION 940,2021,,529900,"OLDS, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-axion-940-2021/,2026-10-29T16:10:40-06:00,False
+CLAAS,JAGUAR 960,2021,1433,595000,"OLDS, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-960-2021/,2026-10-29T16:10:40-06:00,False
+Misc,RG1300C,2022,,470900,"HIGH RIVER, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/misc-rg1300c-2022-2/,2026-10-29T16:10:40-06:00,False
+CLAAS,ORBIS 750,2022,,160900,"DUNMORE, AB",AB,Header Forage,Alberta AG Centre,https://ab-ag.ca/listings/claas-orbis-750-2022-2/,2026-10-29T16:10:40-06:00,False
+CLAAS,LEXION 8800T,2023,1009,849500,"HIGH RIVER, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-8800tt-2023/,2026-10-29T16:10:40-06:00,False
+CLAAS,JAGUAR 970,2022,1862,573900,"COALDALE, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-970-2022-4/,2026-10-29T16:10:40-06:00,False
+CLAAS,LEXION 8700,2022,1106,577900,"OLDS, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-lexion-8700-2022/,2026-10-29T16:10:40-06:00,False
+CLAAS,LEXION 8700,2022,1124,577900,"OLDS, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-lexion-8700-2022-2/,2026-10-29T16:10:40-06:00,False
+CLAAS,LEXION 8700,2022,1113,577900,"OLDS, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-lexion-8700-2022-3/,2026-10-29T16:10:40-06:00,False
+CLAAS,LEXION 8700,2022,1104,577900,"OLDS, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-lexion-8700-2022-4/,2026-10-29T16:10:40-06:00,False
+CLAAS,LEXION 8700,2022,1125,577900,"OLDS, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-lexion-8700-2022-5/,2026-10-29T16:10:40-06:00,False
+CLAAS,XERION 5000,2024,,699900,"COALDALE, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-5000-2024/,2026-10-29T16:10:40-06:00,False
+CLAAS,XERION12.650,2023,,744900,"OLDS, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-xerion-12-650-trac-2023/,2026-10-29T16:10:40-06:00,False
+MacDon,FD250,2022,,162900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd250-2022/,2026-10-29T16:10:40-06:00,False
+CLAAS,970,2022,1587,595000,"COALDALE, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-970-2022-2/,2026-10-29T16:10:40-06:00,False
+CLAAS,LEXION 760,2016,2627,220900,"OLDS, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-760-2016/,2026-10-29T16:10:40-06:00,False
+Horsch,LEEB 6.300VL,2021,,625000,"STETTLER, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horsch-6-300vl-2021/,2026-10-29T16:10:40-06:00,False
+Horsch,LEEB 6.300VL,2023,,749000,"HIGH RIVER, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horsch-leeb-6-300-2023/,2026-10-29T16:10:40-06:00,False
+CLAAS,XERION 4500,2024,,596900,"COALDALE, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-xerion-4500-2024/,2026-10-29T16:10:40-06:00,False
+John Deere,N534F,2024,,577900,"COALDALE, AB",AB,Air Seeder,Alberta AG Centre,https://ab-ag.ca/listings/john-deere-n534f-2024/,2026-10-29T16:10:40-06:00,False
+John Deere,N534F,2024,,577900,"COALDALE, AB",AB,Air Seeder,Alberta AG Centre,https://ab-ag.ca/listings/john-deere-n534f-2024-2/,2026-10-29T16:10:40-06:00,False
+Horsch,LEEB 8.460VL,2025,,895900,"COALDALE, AB",AB,Misc,Alberta AG Centre,https://ab-ag.ca/listings/horsch-leeb-8-460vl-2025/,2026-10-29T16:10:40-06:00,False
+CLAAS,CONVIO FLEX,2020,,75900,"HIGH RIVER, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/claas-convio-flex-2020/,2026-10-29T16:10:40-06:00,False
+CLAAS,ORBIS 900,2017,,119900,"OLDS, AB",AB,Header Forage,Alberta AG Centre,https://ab-ag.ca/listings/claas-orbis-900-2017/,2026-10-29T16:10:40-06:00,False
+CLAAS,LEXION 760TT,2018,1940,382900,"COALDALE, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-lexion-760tt-2018-2/,2026-10-29T16:10:40-06:00,False
+CLAAS,LEXION 760TT,2018,1980,382900,"COALDALE, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-lexion-760tt-2018/,2026-10-29T16:10:40-06:00,False
+CLAAS,AXION 860,2024,,371900,"COALDALE, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-axion-860-2024/,2026-10-29T16:10:40-06:00,False
+MacDon,FD250,2024,,191900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd250-2024-2/,2026-10-29T16:10:40-06:00,False
+CLAAS,ORBIS 600,2017,,88900,"OLDS, AB",AB,Header Forage,Alberta AG Centre,https://ab-ag.ca/listings/claas-orbis-600-2017-2/,2026-10-29T16:10:40-06:00,False
+CLAAS,ORBIS 750,2022,,160900,"DUNMORE, AB",AB,Header Forage,Alberta AG Centre,https://ab-ag.ca/listings/claas-orbis-750-2022-4/,2026-10-29T16:10:40-06:00,False
+MacDon,FD140,2021,,116900,"OLDS, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2021/,2026-10-29T16:10:40-06:00,False
+MacDon,FD140,2021,,116900,"OLDS, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2021-2/,2026-10-29T16:10:40-06:00,False
+MacDon,FD140,2021,,116900,"OLDS, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2021-3/,2026-10-29T16:10:40-06:00,False
+MacDon,FD140,2021,,116900,"OLDS, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2021-4/,2026-10-29T16:10:40-06:00,False
+MacDon,FD140,2021,,116900,"OLDS, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd140-2021-5/,2026-10-29T16:10:40-06:00,False
+CLAAS,JAGUAR 970,2022,1742,595000,"COALDALE, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-970-2022-3/,2026-10-29T16:10:40-06:00,False
+CLAAS,AXION 960TT,2021,,509000,"COALDALE, AB",AB,Tractor,Alberta AG Centre,https://ab-ag.ca/listings/claas-axion-960tt-2021/,2026-10-29T16:10:40-06:00,False
+CLAAS,LEXION 8600,2021,792,520900,"LOUGHEED, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/claas-8600-2021/,2026-10-29T16:10:40-06:00,False
+MacDon,FD135,2019,,96900,"COALDALE, AB",AB,Headers,Alberta AG Centre,https://ab-ag.ca/listings/macdon-fd135-2019/,2026-10-29T16:10:40-06:00,False
+CLAAS,JAGUAR 960,2019,2086,429900,"DUNMORE, AB",AB,Forage Harvester,Alberta AG Centre,https://ab-ag.ca/listings/claas-960-2019/,2026-10-29T16:10:40-06:00,False
+New Holland,CR8.90,2020,1715,359900,"COALDALE, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/new-holland-cr8-90-2020/,2026-10-29T16:10:40-06:00,False
+New Holland,CR8.90,2022,1326,487900,"COALDALE, AB",AB,Combine,Alberta AG Centre,https://ab-ag.ca/listings/new-holland-cr8-90-2022/,2026-10-29T16:10:40-06:00,False
+John Deere,9RX 710,2025,432,1275100,"TABER, AB",AB,Track Tractor,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T16:15:39-06:00,False
+John Deere,X9 1000,2025,393,1132700,"LETHBRIDGE, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T16:15:39-06:00,False
+John Deere,X9 1000,2025,460,1119000,"County of Forty Mile, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T16:15:39-06:00,False
+John Deere,X9 1000,2025,666,1102200,"LETHBRIDGE, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T16:15:39-06:00,False
+John Deere,X9 1000,2025,383,1075800,"MEDICINE HAT, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T16:15:39-06:00,False
+John Deere,X9 1000,2025,495,1060000,"TABER, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T16:15:39-06:00,False
+John Deere,X9 1000,2025,340,1057900,"MEDICINE HAT, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T16:15:39-06:00,False
+John Deere,X9 1000,2025,383,1052700,"County of Forty Mile, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T16:15:39-06:00,False
+John Deere,X9 1000,2025,378,1052700,"TABER, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T16:15:39-06:00,False
+John Deere,X9 1000,2025,502,1044300,"TABER, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T16:15:39-06:00,False
+John Deere,X9 1000,2025,530,1039000,"MEDICINE HAT, AB",AB,Combine,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T16:15:39-06:00,False
+John Deere,9RX 640,2025,1095,979000,"LETHBRIDGE, AB",AB,Track Tractor,Western Tractor,https://www.westerntractor.ca/usedequipment,2026-10-29T16:15:39-06:00,False
+Fendt,FTC9,2025,617,,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2025-fendt-ftc9-2/,2026-10-29T16:15:39-06:00,False
+Fendt,FTC9,2025,601,,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2025-fendt-ftc9/,2026-10-29T16:15:39-06:00,False
+Challenger,MT955C,2013,3912,220000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2013-challenger-mt955c/,2026-10-29T16:15:39-06:00,False
+Versatile,570DT,2018,3560,379000,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2018-versatile-570dt/,2026-10-29T16:15:39-06:00,False
+Case IH,Steiger 580 Quadtrac,2016,6360,275000,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2016-case-ih-steiger-580-quadtrac/,2026-10-29T16:15:39-06:00,False
+New Holland,CR8.90,2018,1190,282000,"Perdue, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2018-new-holland-cr8-90-2/,2026-10-29T16:15:39-06:00,False
+Brandt,1547,2018,,,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2018-brandt-1547/,2026-10-29T16:15:39-06:00,False
+John Deere,9870STS,2008,2210,69900,"Perdue, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2008-john-deere-9870sts/,2026-10-29T16:15:39-06:00,False
+TerraGator,TG8400C,2023,1560,440000,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2023-terragator-tg8400c/,2026-10-29T16:15:39-06:00,False
+Convey-All,CST40-C,2012,,,"Perdue, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2012-convey-all-cst40-c/,2026-10-29T16:15:39-06:00,False
+New Holland,CR8.90,2018,1189,282000,"Perdue, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2018-new-holland-cr8-90/,2026-10-29T16:15:39-06:00,False
+Versatile,620DT,2025,674,799000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2025-versatile-620dt/,2026-10-29T16:15:39-06:00,False
+MacDon,FD145,2022,,145000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2022-macdon-fd145/,2026-10-29T16:15:39-06:00,False
+Honey,Bee 240 AirFlex,2021,,79000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2021-honey-bee-af240/,2026-10-29T16:15:39-06:00,False
+Big,Dog BlackJack,2018,98,5500,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2018-big-dog-blackjack/,2026-10-29T16:15:39-06:00,False
+John Deere,W150,2015,2859,129000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2015-john-deere-w150/,2026-10-29T16:15:39-06:00,False
+Versatile,SX280,2015,1374,165000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2015-versatile-sx280/,2026-10-29T16:15:39-06:00,False
+Fendt,724 Gen6,2021,1986,299000,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2021-fendt-724-gen6/,2026-10-29T16:15:39-06:00,False
+Bergen,7200,,,3500,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/bergen-7200/,2026-10-29T16:15:39-06:00,False
+RoGator,RG1300C,2020,1749,519000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2020-rogator-rg1300c/,2026-10-29T16:15:39-06:00,False
+John Deere,8970,1993,9435,89000,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/1993-john-deere-8970/,2026-10-29T16:15:39-06:00,False
+Salford,I-4124,2017,,89000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2017-salford-i-4124/,2026-10-29T16:15:39-06:00,False
+Land,Pride STH1590,,,1500,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/land-pride-sth1590/,2026-10-29T16:15:39-06:00,False
+Massey Ferguson,RB4180V,2019,10878,59900,"Perdue, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2019-massey-ferguson-rb4180v/,2026-10-29T16:15:39-06:00,False
+Versatile,Viking VT320,2016,,57500,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2016-versatile-viking-vt320/,2026-10-29T16:15:39-06:00,False
+AGCO,Gleaner 4000,2003,,5000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2003-agco-gleaner-4000/,2026-10-29T16:15:39-06:00,False
+Honey,Bee 240 AirFlex,2021,,88000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2021-honey-bee-240-airflex-2/,2026-10-29T16:15:39-06:00,False
+Honey,Bee 240 AirFlex NXT,2024,,159000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2024-honey-bee-240-airflex-nxt/,2026-10-29T16:15:39-06:00,False
+Honey,Bee 240 AirFlex,2023,,130000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2023-honey-bee-240-airflex-2/,2026-10-29T16:15:39-06:00,False
+Honey,Bee 240 AirFlex,2023,,102000,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2023-honey-bee-240-airflex/,2026-10-29T16:15:39-06:00,False
+AGCO,Gleaner S98,2023,392,540000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2023-agco-gleaner-s98-4/,2026-10-29T16:15:39-06:00,False
+AGCO,Gleaner S98,2023,496,479000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2023-agco-gleaner-s98-3/,2026-10-29T16:15:39-06:00,False
+AGCO,Gleaner S98,2023,304,589000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2023-agco-gleaner-s98-2/,2026-10-29T16:15:39-06:00,False
+AGCO,Gleaner S98,2023,334,598500,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2023-agco-gleaner-s98/,2026-10-29T16:15:39-06:00,False
+RoGator,RG1300C,2019,2250,415000,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2019-rogator-rg1300c/,2026-10-29T16:15:39-06:00,False
+Convey-All,CST-1500,2017,371,159000,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2017-convey-all-cst-1500-2/,2026-10-29T16:15:39-06:00,False
+Versatile,620DT,2023,777,698000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2023-versatile-620dt/,2026-10-29T16:15:39-06:00,False
+Fendt,FTC9,2024,286,895000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2024-fendt-ftc9/,2026-10-29T16:15:39-06:00,False
+Fendt,FTC9,2024,358,891000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2024-fendt-ftc9-2/,2026-10-29T16:15:39-06:00,False
+Massey Ferguson,1316S,2024,,88000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2024-massey-ferguson-1316s/,2026-10-29T16:15:39-06:00,False
+AGCO,Gleaner S77,2013,2472,130000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2013-agco-gleaner-s77/,2026-10-29T16:15:39-06:00,False
+Convey-All,CST-1500,2017,375,159000,"Perdue, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2017-convey-all-cst-1500/,2026-10-29T16:15:39-06:00,False
+Massey Ferguson,1316S,2023,,82000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2023-massey-ferguson-1316s/,2026-10-29T16:15:39-06:00,False
+AGCO,Gleaner S77,2011,1647,129000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2011-agco-gleaner-s77-2/,2026-10-29T16:15:39-06:00,False
+RoGator,RG1300C,2022,1658,598000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2022-rogator-rg1300c/,2026-10-29T16:15:39-06:00,False
+Sunflower,9750,2018,,99000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2018-sunflower-9750/,2026-10-29T16:15:39-06:00,False
+Fendt,RG937,2025,655,869000,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2025-fendt-rg937-2/,2026-10-29T16:15:39-06:00,False
+Fendt,RG937,2025,659,869000,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2025-fendt-rg937-3/,2026-10-29T16:15:39-06:00,False
+MacDon,FD75-40,2017,,89000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2017-macdon-fd75-40/,2026-10-29T16:15:39-06:00,False
+MacDon,FD240,2024,,174000,"Perdue, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2024-macdon-fd240/,2026-10-29T16:15:39-06:00,False
+Wilson,Trailer,2006,,69000,"Saskatoon, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2006-wilson-trailer/,2026-10-29T16:15:39-06:00,False
+Fendt,724 Gen7,2025,846,485000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2025-fendt-724-gen7/,2026-10-29T16:15:39-06:00,False
+RoGator,RG1100C,2019,2335,316000,"Perdue, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2019-rogator-rg1100c/,2026-10-29T16:15:39-06:00,False
+Fendt,FTC8,2024,384,825000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2024-fendt-ftc8/,2026-10-29T16:15:39-06:00,False
+RoGator,RG1300B,2015,3102,229000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2015-rogator-rg1300b/,2026-10-29T16:15:39-06:00,False
+John Deere,9400,2000,8611,99000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2000-john-deere-9400/,2026-10-29T16:15:39-06:00,False
+Morris,C2 CONTOUR,2016,,159000,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2016-morris-c2-contour/,2026-10-29T16:15:39-06:00,False
+John Deere,Z915E,2021,591,11500,"Swift Current, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2021-john-deere-z915e/,2026-10-29T16:15:39-06:00,False
+Massey Ferguson,9565,2017,2716,89000,"Perdue, SK",SK,,Full Line Ag,https://fulllineag.com/equipment/listing/2017-massey-ferguson-9565/,2026-10-29T16:15:39-06:00,False
+Case IH,3020,2014,,29000,"Glenella, Manitoba",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2014-case-3020-header-dual-drive/,2026-10-29T16:15:50-06:00,False
+Case IH,FLX4510,2004,6999,30000,"Lundar, Manitoba",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2004-case-flx-4510-floater/,2026-10-29T16:15:50-06:00,False
+Bourgault,6550ST,2009,,74000,"Rossburn, Manitoba",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2009-bourgault-6550-bag-lift-dbl-shoot-4-meters-dlx-auger/,2026-10-29T16:15:50-06:00,False
+NEW LEADER,NL 4500,2018,,85000,"SOURIS, MANITOBA",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2018-new-leader-nl-4500/,2026-10-29T16:15:50-06:00,False
+Bourgault,6550ST,2009,,80000,"KILLARNEY, MB",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2010-bourgault-as-new-please-read/,2026-10-29T16:15:50-06:00,False
+Bourgault,5710,2008,,38500,"Angusville, Manitoba",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2008-bourgault-64-5710-air-seeder-nh3/,2026-10-29T16:15:50-06:00,False
+DEGELMAN,RP6000,2010,,13000,Moosomin Saskatchewan,SK,Used,Prairie Sales,https://prairiesales.ca/listing/2010-degelman-rp-6000-rock-picker/,2026-10-29T16:15:50-06:00,False
+APV,PS800M1,2016,,20000,Saint Rose Du Lac Manitoba,MB,Used,Prairie Sales,https://prairiesales.ca/listing/2016-apv-air-spreader-pasture-seeding/,2026-10-29T16:15:50-06:00,False
+John Deere,RD40F,2021,,89500,"Shilo, Manitoba",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2021-john-deere-rd40f-flex-draper-green-lighted/,2026-10-29T16:15:50-06:00,False
+MacDon,972,2002,,19000,Moosomin Saskatchewan,SK,Used,Prairie Sales,https://prairiesales.ca/listing/2002-macdon-straight-cut-header-36/,2026-10-29T16:15:50-06:00,False
+SMYTH,Hi Speed 20,2025,,58000,"Brandon, Manitoba",MB,New,Prairie Sales,https://prairiesales.ca/listing/2025-fieldmaster-silage-wagon-high-speed-20/,2026-10-29T16:15:50-06:00,False
+SMYTH,Field Master 50,2025,,90000,"Brandon, Manitoba",MB,New,Prairie Sales,https://prairiesales.ca/listing/2025-smyth-field-master-50-new/,2026-10-29T16:15:50-06:00,False
+SMYTH,Super Cube Pro 70,2025,,160000,"Brandon, Manitoba",MB,New,Prairie Sales,https://prairiesales.ca/listing/2025-field-master-super-cube-pro-70/,2026-10-29T16:15:50-06:00,False
+Salford Valmar,9620,2021,,199000,Waskada MB,MB,Used,Prairie Sales,https://prairiesales.ca/listing/2001-salford-9620/,2026-10-29T16:15:50-06:00,False
+Case IH,7230,2014,3282,125000,Rockwood RM Manitoba,MB,Used,Prairie Sales,https://prairiesales.ca/listing/2014-case-7230/,2026-10-29T16:15:50-06:00,False
+John Deere,745FD,2020,,79000,Rockwood RM Manitoba,MB,Used,Prairie Sales,https://prairiesales.ca/listing/2020-john-deere-745-fd-hydra-flex-draper/,2026-10-29T16:15:50-06:00,False
+Case IH,2042,2008,,32000,"Virden, MB",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2008-case-2042-36-pea-auger-and-transport/,2026-10-29T16:15:50-06:00,False
+Case IH,2020-35,2006,,28000,"Virden, MB",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2006-case-2020-35-flex-header-transport/,2026-10-29T16:15:50-06:00,False
+Case IH,2016,2010,,11000,"Virden, MB",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2010-case-2016-pickup-header/,2026-10-29T16:15:50-06:00,False
+Case IH,ATX 700,2010,,38000,"Pilot Mound, Manitoba",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2010-case-atx-700-drill-adx-3430-cart/,2026-10-29T16:15:50-06:00,False
+Terragator,8203,2008,5750,24500,"Pilot Mound, MB",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2008-terragator-8203/,2026-10-29T16:15:50-06:00,False
+Bourgault,7200-84,2001,,27500,"Pilot Mound, Manitoba",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2001-bourgault-7200-84/,2026-10-29T16:15:50-06:00,False
+International,9400,2007,,38500,"Austin, MB",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2007-international-9400/,2026-10-29T16:15:50-06:00,False
+John Deere,4710,2003,4570,75000,Yorkton Saskatchewan,SK,Used,Prairie Sales,https://prairiesales.ca/listing/2003-john-deere-4710/,2026-10-29T16:15:50-06:00,False
+Bourgault,550ST,2009,,75000,Yorkton Saskatchewan,SK,Used,Prairie Sales,https://prairiesales.ca/listing/2009-60-seed-hawk-6550st-bourgault/,2026-10-29T16:15:50-06:00,False
+International,Eagle 9900i,2008,,46000,"Brandon, Manitoba",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2008-international-eagle-9900i/,2026-10-29T16:15:50-06:00,False
+Bourgault,5710,2004,,20000,"Hamiota, Manitoba",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2004-bourgault-5710-tank-4350-drill/,2026-10-29T16:15:50-06:00,False
+John Deere,33.7,2016,4545,285000,Two Hills Alberta,AB,Used,Prairie Sales,https://prairiesales.ca/listing/2016-john-deere-8345r-ivt-transmission/,2026-10-29T16:15:50-06:00,False
+Wolverine,Ditcher Rebuilt,2009,,34000,"Steinbach, MB",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2009-wolverine-ditcher-rebuilt/,2026-10-29T16:15:50-06:00,False
+John Deere,7250R,2015,6952,173500,"Killarney, MB",MB,Used,Prairie Sales,https://prairiesales.ca/listing/john-deere-7250r-with-loader-and-bucket/,2026-10-29T16:15:50-06:00,False
+John Deere,D450,2013,1986,,Saint Paul Alberta,AB,Used,Prairie Sales,https://prairiesales.ca/listing/2013-and-2012-d450-john-deere-swathers/,2026-10-29T16:15:50-06:00,False
+Seed Hawk,,2016,,242000,"Moosomin, SK",SK,Used,Prairie Sales,https://prairiesales.ca/listing/2016-seed-hawk-810-tank-and-80-drill/,2026-10-29T16:15:50-06:00,False
+New Holland,t9020,2007,5764,184000,"Moosomin, SK",SK,Used,Prairie Sales,https://prairiesales.ca/listing/2007-new-holland-t9020-leon-47-14-blade/,2026-10-29T16:15:50-06:00,False
+Rite-Way,F3-52,2020,5764,57900,"Moosomin, SK",SK,Used,Prairie Sales,https://prairiesales.ca/listing/2020-rite-way-f3-52-land-roller/,2026-10-29T16:15:50-06:00,False
+DEGELMAN,SM7000,2013,,55000,"Moosomin, SK",SK,Used,Prairie Sales,https://prairiesales.ca/listing/2013-degelman-strawmaster-70-sm-2000/,2026-10-29T16:15:50-06:00,False
+MERIDIAN,12-95,2021,,37000,"Moosomin, SK",SK,Used,Prairie Sales,https://prairiesales.ca/listing/meridian-auger-slmd-12-95-2021/,2026-10-29T16:15:50-06:00,False
+Rightline,ntz8,2023,,32000,"Moosomin, SK",SK,Used,Prairie Sales,https://prairiesales.ca/listing/2023-rightline-ntz8-100-rock-picker/,2026-10-29T16:15:50-06:00,False
+Timpte,45' Tri-axel,2023,,82500,"Moosomin, SK",SK,Used,Prairie Sales,https://prairiesales.ca/listing/2023-timpte-super-hopper-45-tri-axle/,2026-10-29T16:15:50-06:00,False
+New Holland,Powerstar 120,2019,3159,69900,"Rossburn, MB",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2019-new-holland-powerstar-120/,2026-10-29T16:15:50-06:00,False
+Massey Ferguson,9220,2009,851,54000,"Birtle, MB",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2009-9220-massey-ferguson-swather/,2026-10-29T16:15:50-06:00,False
+Convey-All,CS-1550,2026,,210000,Souris MB,MB,Used,Prairie Sales,https://prairiesales.ca/listing/2026-cst-550-convey-all/,2026-10-29T16:15:50-06:00,False
+Case IH,9250,2023,1013,575000,"Vegreville, AB",AB,Used,Prairie Sales,https://prairiesales.ca/listing/2022-case-9250-with-tracks-hrs-1013-695/,2026-10-29T16:15:50-06:00,False
+JBS,VMWB 2648-34,2025,,,"Brandon, Manitoba",MB,Used,Prairie Sales,https://prairiesales.ca/listing/jbs-spreader-30-ton-wide-body-3-4-units-available-nov-2026/,2026-10-29T16:15:50-06:00,False
+Case IH,600,2012,4040,319000,Outlook SK,SK,Used,Prairie Sales,https://prairiesales.ca/listing/2012-case-ih-quadtrac-600-4048-hrs/,2026-10-29T16:15:50-06:00,False
+John Deere,936D,2004,,15000,Moosomin Sk,SK,Used,Prairie Sales,https://prairiesales.ca/listing/2004-936d-john-deere-header/,2026-10-29T16:15:50-06:00,False
+MacDon,972,2002,,17000,Moosomin Sk,SK,Used,Prairie Sales,https://prairiesales.ca/listing/2002-macdon-972/,2026-10-29T16:15:50-06:00,False
+John,Deere w150,2013,1949,99000,"Neepawa, MB",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2013-john-deere-w150/,2026-10-29T16:15:50-06:00,False
+FARMAX,MI Interceptor,2021,,25000,Dauphin MB,MB,Used,Prairie Sales,https://prairiesales.ca/listing/2021-farmax-mi-interceptor/,2026-10-29T16:15:50-06:00,False
+John Deere,1835,2011,,49000,Leduc AB,AB,Used,Prairie Sales,https://prairiesales.ca/listing/2011-john-deere-1835-60-air-drill-1910-air-tank/,2026-10-29T16:15:50-06:00,False
+Corn Husker,800HFA,2019,,55900,"Hamiota, Manitoba",MB,Used,Prairie Sales,https://prairiesales.ca/listing/2019-corn-husker-convertible-trailer-800-hfa-48/,2026-10-29T16:15:50-06:00,False
+Forsberg,200-V Fan,1984,,16000,"Saskatoon, SK",SK,Used farm equipment,Flaman Agriculture,https://www.flamanagriculture.com/inventory/1984-forsberg-200-v-fan-p22689,2026-10-29T16:17:47-06:00,False
+Brandt,"15"" x 100' Swing Conveyor",2022,,48500,"Yorkton, SK",SK,Used farm equipment,Flaman Agriculture,https://www.flamanagriculture.com/inventory/2022-brandt-15-x-100-swing-conveyor-p24794,2026-10-29T16:17:47-06:00,False
+Frost,Fighter Heater,2013,,,"Yorkton, SK",SK,Used farm equipment,Flaman Agriculture,https://www.flamanagriculture.com/inventory/2013-frost-fighter-heater-p25342,2026-10-29T16:17:47-06:00,False
+Farm King,"13"" x 95' Auger",2020,,42900,"Saskatoon, SK",SK,Used farm equipment,Flaman Agriculture,https://www.flamanagriculture.com/inventory/2020-farm-king-13-x-95-auger-p26008,2026-10-29T16:17:47-06:00,False
+Convey-All,"16"" x 45' Conveyor",2016,,29900,"Southey, SK",SK,Used farm equipment,Flaman Agriculture,https://www.flamanagriculture.com/inventory/2016-convey-all-16-x-45-conveyor-p26401,2026-10-29T16:17:47-06:00,False
+Meridian,"13"" x 85' Auger",2023,,55500,"Southey, SK",SK,Used farm equipment,Flaman Agriculture,https://www.flamanagriculture.com/inventory/2023-meridian-13-x-85-auger-p26662,2026-10-29T16:17:47-06:00,False
+Sakundiak,TL10-1200 Auger,2009,,13900,"Prince Albert, SK",SK,Used farm equipment,Flaman Agriculture,https://www.flamanagriculture.com/inventory/2009-sakundiak-tl10-1200-auger-p27432,2026-10-29T16:17:47-06:00,False
+Westfield,UTX 44' Auger,2021,,23900,"Southey, SK",SK,Used farm equipment,Flaman Agriculture,https://www.flamanagriculture.com/inventory/2021-westfield-utx-44-auger-p22302,2026-10-29T16:17:47-06:00,False
+Farm King,"13"" x 85' Auger w/ XTend",2016,,32900,"Prince Albert, SK",SK,Used farm equipment,Flaman Agriculture,https://www.flamanagriculture.com/inventory/2016-farm-king-13-x-85-auger-w-xtend-p29053,2026-10-29T16:17:47-06:00,False

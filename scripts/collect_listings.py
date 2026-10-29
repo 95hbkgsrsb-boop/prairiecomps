@@ -36,6 +36,7 @@ FIELDS = [
     "source",
     "source_url",
     "date_seen",
+    "outlier",
 ]
 
 
@@ -94,13 +95,18 @@ def normalize_make(make: str | None) -> str | None:
     aliases = {
         "JD": "John Deere",
         "JOHN DEERE": "John Deere",
+        "CASE": "Case IH",
         "CASE IH": "Case IH",
         "CASEIH": "Case IH",
         "NEW HOLLAND": "New Holland",
         "MASSEY FERGUSON": "Massey Ferguson",
+        "MASSEY": "Massey Ferguson",
         "CLAAS": "CLAAS",
         "CAT": "Caterpillar",
         "CATERPILLAR": "Caterpillar",
+        "FARM KING": "Farm King",
+        "FARMKING": "Farm King",
+        "MK MARTIN": "MK Martin",
     }
     return aliases.get(m.upper(), m)
 
@@ -228,6 +234,7 @@ def parse_ab_ag_listing(html: str, url: str, seen: str) -> dict | None:
         "source": "Alberta AG Centre",
         "source_url": url,
         "date_seen": seen,
+        "outlier": False,
     }
 
 
@@ -323,10 +330,296 @@ def collect_western() -> list[dict]:
                 "source": "Western Tractor",
                 "source_url": url,
                 "date_seen": seen,
+                "outlier": False,
             }
         )
     print(f"  parsed {len(rows)} listings")
     return rows
+
+
+
+# ---------- Full Line Ag (SK) ----------
+
+def collect_full_line_ag() -> list[dict]:
+    print("Collecting Full Line Ag…")
+    rows: list[dict] = []
+    seen = now_iso()
+    for page in range(1, 12):
+        url = (
+            "https://fulllineag.com/equipment/used-equipment/"
+            if page == 1
+            else f"https://fulllineag.com/equipment/used-equipment/page/{page}/"
+        )
+        if page > 1:
+            time.sleep(DELAY_SEC)
+        code, html = fetch(url)
+        if code in (401, 403):
+            print(f"  BLOCKED HTTP {code}")
+            break
+        if code != 200:
+            print(f"  page {page} HTTP {code} — stop")
+            break
+        chunks = re.split(r'class=["\']oxy-post-middle["\']', html)[1:]
+        if not chunks:
+            print(f"  page {page}: no cards")
+            break
+        page_rows = 0
+        for ch in chunks:
+            title_m = re.search(r"oxy-post-title[^>]*href=['\"]([^'\"]+)['\"]>([^<]+)", ch)
+            if not title_m:
+                continue
+            detail_url = title_m.group(1)
+            title = unescape(title_m.group(2)).strip()
+
+            def wsnt(cls: str) -> str | None:
+                m = re.search(rf'wsnt-{cls}.*?wsnt-value">(.*?)</span>', ch, re.S | re.I)
+                if not m:
+                    return None
+                return unescape(re.sub(r"<[^>]+>", "", m.group(1))).strip() or None
+
+            price_raw = wsnt("price")
+            hours_raw = wsnt("hours")
+            loc = wsnt("location")
+            price = None
+            if price_raw and price_raw.upper() not in ("N/A", "CALL", "CALL FOR PRICE"):
+                price = parse_money(price_raw)
+            hours = None
+            if hours_raw:
+                hm = re.search(r"([\d,]+)", hours_raw.replace(" ", ""))
+                if hm:
+                    hours = int(hm.group(1).replace(",", ""))
+            year = None
+            ym = re.match(r"^(19|20)\d{2}\b", title)
+            if ym:
+                year = int(ym.group(0))
+            rest = re.sub(r"^(19|20)\d{2}\s+", "", title).strip()
+            parts = rest.split()
+            make = normalize_make(parts[0]) if parts else None
+            model = " ".join(parts[1:]) if len(parts) > 1 else None
+            # Multi-word makes
+            if parts:
+                two = " ".join(parts[:2]).upper()
+                if two in ("JOHN DEERE", "NEW HOLLAND", "CASE IH", "MASSEY FERGUSON", "FULL LINE"):
+                    make = normalize_make(two if two != "FULL LINE" else parts[0])
+                    if two == "FULL LINE":
+                        model = " ".join(parts[1:]) or None
+                    else:
+                        model = " ".join(parts[2:]) or None
+            province = infer_province(loc, "SK")
+            if not make:
+                continue
+            rows.append(
+                {
+                    "make": make,
+                    "model": model,
+                    "year": year,
+                    "hours": hours,
+                    "price_cad": price,
+                    "location": loc or "Saskatchewan",
+                    "province": province or "SK",
+                    "category": None,
+                    "source": "Full Line Ag",
+                    "source_url": detail_url,
+                    "date_seen": seen,
+                    "outlier": False,
+                }
+            )
+            page_rows += 1
+        print(f"  page {page}: {page_rows} listings")
+        if page_rows < 5 and page > 1:
+            break
+    print(f"  parsed {len(rows)} listings")
+    return rows
+
+
+# ---------- Prairie Sales (MB) ----------
+
+def collect_prairie_sales() -> list[dict]:
+    print("Collecting Prairie Sales…")
+    code, sm = fetch("https://prairiesales.ca/wp-sitemap-posts-listing-1.xml")
+    if code != 200:
+        print(f"  SKIP sitemap HTTP {code}")
+        return []
+    urls = [u for u in re.findall(r"<loc>([^<]+)</loc>", sm) if "/listing/" in u]
+    print(f"  {len(urls)} listing URLs in sitemap")
+    rows: list[dict] = []
+    seen = now_iso()
+    for i, url in enumerate(urls, 1):
+        time.sleep(DELAY_SEC)
+        code, html = fetch(url)
+        if code in (401, 403):
+            print(f"  BLOCKED HTTP {code} — stopping this source")
+            break
+        if code != 200:
+            print(f"  warn HTTP {code} {url}")
+            continue
+        row = parse_prairie_sales_listing(html, url, seen)
+        if row and row.get("make"):
+            rows.append(row)
+            print(f"  [{i}/{len(urls)}] {row.get('year')} {row.get('make')} {row.get('model')} ${row.get('price_cad')}")
+        else:
+            print(f"  [{i}/{len(urls)}] parse miss {url}")
+    return rows
+
+
+def parse_prairie_sales_listing(html: str, url: str, seen: str) -> dict | None:
+    text = re.sub(r"(?is)<script[^>]*>.*?</script>", " ", html)
+    text = re.sub(r"(?is)<style[^>]*>.*?</style>", " ", text)
+    text = unescape(text)
+    text = re.sub(r"<[^>]+>", "\n", text)
+    lines = [re.sub(r"\s+", " ", ln).strip() for ln in text.splitlines()]
+    lines = [ln for ln in lines if ln]
+
+    def after(label: str) -> str | None:
+        for i, ln in enumerate(lines):
+            if ln == label and i + 1 < len(lines):
+                return lines[i + 1]
+        return None
+
+    year = None
+    yraw = after("Year")
+    if yraw and re.match(r"^\d{4}$", yraw):
+        year = int(yraw)
+    make = normalize_make(after("Make"))
+    model = after("Model")
+    hours = None
+    hraw = after("Hours")
+    if hraw:
+        hm = re.search(r"([\d,]+)", hraw.replace(" ", ""))
+        if hm:
+            hours = int(hm.group(1).replace(",", ""))
+    loc = after("Location")
+    # Our Price appears as 'Our Price' then '$' then amount
+    price = None
+    for i, ln in enumerate(lines):
+        if ln == "Our Price":
+            # next non-empty money-ish
+            for j in range(i + 1, min(i + 5, len(lines))):
+                if lines[j] in ("$", "CAD"):
+                    continue
+                price = parse_money(lines[j] if lines[j].startswith("$") else f"${lines[j]}")
+                if price:
+                    break
+            break
+    if price is None:
+        # fallback first substantial $ after Our Price marker in raw html entities
+        m = re.search(r"Our Price.*?\$[\s\u00a0]*([\d,]+)", unescape(html), re.S | re.I)
+        if m:
+            try:
+                price = int(m.group(1).replace(",", ""))
+            except ValueError:
+                price = None
+
+    if not make:
+        # title fallback: "2014 CASE 7230"
+        title_m = re.search(r"<title>([^<]+)</title>", html, re.I)
+        if title_m:
+            title = unescape(title_m.group(1)).split("–")[0].split("-")[0].strip()
+            tm = re.match(r"^(?:(19|20)\d{2}\s+)?(.+)$", title)
+            if tm:
+                if title[:4].isdigit():
+                    year = year or int(title[:4])
+                    rest = title[5:].strip()
+                else:
+                    rest = title
+                parts = rest.split()
+                if parts:
+                    make = normalize_make(parts[0])
+                    model = model or " ".join(parts[1:]) or None
+
+    if not make:
+        return None
+    province = infer_province(loc, "MB")
+    return {
+        "make": make,
+        "model": model,
+        "year": year,
+        "hours": hours,
+        "price_cad": price,
+        "location": loc or "Manitoba",
+        "province": province or "MB",
+        "category": after("Category") or after("Condition"),
+        "source": "Prairie Sales",
+        "source_url": url,
+        "date_seen": seen,
+        "outlier": False,
+    }
+
+
+# ---------- Flaman Agriculture (AB/SK) ----------
+
+def collect_flaman() -> list[dict]:
+    print("Collecting Flaman Agriculture…")
+    url = "https://www.flamanagriculture.com/inventory?type=used"
+    code, html = fetch(url)
+    if code in (401, 403):
+        print(f"  BLOCKED HTTP {code}")
+        return []
+    if code != 200:
+        print(f"  SKIP HTTP {code}")
+        return []
+    seen = now_iso()
+    rows: list[dict] = []
+    parts = html.split("<!-- .item -->")
+    for part in parts:
+        link_m = re.search(r'<a class="over" href="([^"]+)"[^>]*title="([^"]*)"', part)
+        if not link_m:
+            # fallback: over link + h3
+            link_m = re.search(r'<a class="over" href="([^"]+)"', part)
+            title_m = re.search(r"<h3>([^<]+)</h3>", part)
+            if not link_m or not title_m:
+                continue
+            detail = link_m.group(1)
+            title = unescape(title_m.group(1)).strip()
+        else:
+            detail = link_m.group(1)
+            title = unescape(link_m.group(2) or "").strip()
+            if not title:
+                tm = re.search(r"<h3>([^<]+)</h3>", part)
+                title = unescape(tm.group(1)).strip() if tm else ""
+        if not title:
+            continue
+        price_m = re.search(r"\$([\d,]+)", part)
+        price = int(price_m.group(1).replace(",", "")) if price_m else None
+        if price is not None and price < 1000:
+            price = None
+        loc_m = re.search(r'<div class="location"[^>]*>.*?<strong>([^<]+)</strong>', part, re.S)
+        loc = loc_m.group(1).strip() if loc_m else None
+        year = None
+        ym = re.match(r"^(19|20)\d{2}\b", title)
+        if ym:
+            year = int(ym.group(0))
+        rest = re.sub(r"^(19|20)\d{2}\s+", "", title).strip()
+        parts_t = rest.split()
+        make = normalize_make(parts_t[0]) if parts_t else None
+        model = " ".join(parts_t[1:]) if len(parts_t) > 1 else None
+        if parts_t:
+            two = " ".join(parts_t[:2]).upper()
+            if two in ("JOHN DEERE", "NEW HOLLAND", "CASE IH", "MASSEY FERGUSON", "FARM KING", "MK MARTIN"):
+                make = normalize_make(two)
+                model = " ".join(parts_t[2:]) or None
+        province = infer_province(loc, "AB")
+        if not make:
+            continue
+        rows.append(
+            {
+                "make": make,
+                "model": model,
+                "year": year,
+                "hours": None,
+                "price_cad": price,
+                "location": loc or "Alberta",
+                "province": province or "AB",
+                "category": "Used farm equipment",
+                "source": "Flaman Agriculture",
+                "source_url": detail if detail.startswith("http") else f"https://www.flamanagriculture.com{detail}",
+                "date_seen": seen,
+                "outlier": False,
+            }
+        )
+    print(f"  parsed {len(rows)} listings")
+    return rows
+
 
 
 # ---------- Machinery One market aggregates (attribution only) ----------
@@ -451,10 +744,43 @@ def write_outputs(rows: list[dict], market: dict) -> None:
     print(json.dumps(meta, indent=2))
 
 
+def flag_outliers(rows: list[dict]) -> list[dict]:
+    """Mark obviously bad asking prices (kept in dataset, excluded from medians later)."""
+    floors = {
+        "combine": 25000,
+        "tractor": 15000,
+        "sprayer": 15000,
+        "windrower": 20000,
+    }
+    for r in rows:
+        price = r.get("price_cad")
+        if not price:
+            r["outlier"] = False
+            continue
+        cat = (r.get("category") or "").lower()
+        blob = f"{r.get('make','')} {r.get('model','')} {cat}".lower()
+        bad = False
+        if price < 1000:
+            bad = True
+        for key, floor in floors.items():
+            if key in cat and price < floor:
+                bad = True
+        # Heuristic: combine models priced like a pallet fork
+        if price < 10000 and any(k in blob for k in ("lexion", " cr8", " cr9", "s790", "s780", "x9-1000", "combine")):
+            if "header" not in blob and "pall" not in blob and "platform" not in blob:
+                bad = True
+        r["outlier"] = bad
+    return rows
+
+
 def main() -> int:
     rows: list[dict] = []
     rows.extend(collect_ab_ag())
     rows.extend(collect_western())
+    rows.extend(collect_full_line_ag())
+    rows.extend(collect_prairie_sales())
+    rows.extend(collect_flaman())
+    rows = flag_outliers(rows)
     market = collect_machinery_one_market()
     write_outputs(rows, market)
     return 0
