@@ -2,19 +2,18 @@
 
 Hi,
 
-I’m Phillip Herrod with PrairieComps (prairiecomps — used farm & heavy equipment asking-price comps for Alberta and the Prairies). Buyers use the site free; dealers can take Featured placement so your inventory shows up first on high-intent model searches.
+I’m Phillip Herrod with PrairieComps, a free asking-price comps site for used farm and heavy equipment across Alberta and the Prairies (https://95hbkgsrsb-boop.github.io/prairiecomps/). Buyers use it free; dealers can take Featured placement so inventory shows first on high-intent model searches.
 
-**Featured is $99 CAD/month.** We’re offering the **first month free** to the first 10 dealers who reply.
+**Featured is $99 CAD/month.** The **first month is free** for the first 10 dealers who reply.
 
-If you’re interested, just reply with your dealership name, city, and website. Questions welcome.
+Interested? Reply with your dealership name, city, and website. Happy to answer questions.
 
-To unsubscribe from future emails about PrairieComps, reply with **unsubscribe**.
+To stop further PrairieComps emails, reply **unsubscribe**.
 
-Thanks for your time,
+Thanks,
 Phillip Herrod
 PrairieComps
 Red Deer, AB
 chinookcall@mail.grokbot.com
-https://95hbkgsrsb-boop.github.io/prairiecomps/
 
 19 Lees Street, Red Deer, AB T4R 2P1
