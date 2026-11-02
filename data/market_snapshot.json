@@ -1,34 +1,34 @@
 {
   "source": "Machinery One",
   "source_url": "https://www.machineryone.ca/market",
-  "date_seen": "2026-10-29T16:17:47-06:00",
+  "date_seen": "2026-11-02T07:29:30-06:00",
   "attribution": "Province and brand asking-price medians published on Machinery One’s public market page. Figures are dealer asking prices, not sale prices. PrairieComps does not scrape Machinery One listing inventory (prohibited by their terms).",
   "provinces": [
     {
       "name": "Alberta",
-      "listings": 2547,
-      "median_cad": 129900,
+      "listings": 2580,
+      "median_cad": 139000,
       "low_cad": 10000,
       "high_cad": 2200000
     },
     {
       "name": "Saskatchewan",
-      "listings": 1209,
-      "median_cad": 148750,
+      "listings": 1265,
+      "median_cad": 150000,
       "low_cad": 10495,
       "high_cad": 1096800
     },
     {
       "name": "British Columbia",
-      "listings": 998,
-      "median_cad": 96700,
-      "low_cad": 10985,
+      "listings": 1025,
+      "median_cad": 92500,
+      "low_cad": 10000,
       "high_cad": 1395000
     },
     {
       "name": "Manitoba",
-      "listings": 412,
-      "median_cad": 68500,
+      "listings": 415,
+      "median_cad": 67900,
       "low_cad": 10000,
       "high_cad": 765000
     }
@@ -36,66 +36,66 @@
   "all_provinces_found": [
     {
       "name": "Alberta",
-      "listings": 2547,
-      "median_cad": 129900,
+      "listings": 2580,
+      "median_cad": 139000,
       "low_cad": 10000,
       "high_cad": 2200000
     },
     {
       "name": "Quebec",
-      "listings": 1770,
+      "listings": 1808,
       "median_cad": 85000,
       "low_cad": 10000,
       "high_cad": 1776700
     },
     {
       "name": "Saskatchewan",
-      "listings": 1209,
-      "median_cad": 148750,
+      "listings": 1265,
+      "median_cad": 150000,
       "low_cad": 10495,
       "high_cad": 1096800
     },
     {
       "name": "Ontario",
-      "listings": 1102,
-      "median_cad": 80125,
+      "listings": 1107,
+      "median_cad": 80990,
       "low_cad": 10000,
       "high_cad": 1050000
     },
     {
       "name": "British Columbia",
-      "listings": 998,
-      "median_cad": 96700,
-      "low_cad": 10985,
+      "listings": 1025,
+      "median_cad": 92500,
+      "low_cad": 10000,
       "high_cad": 1395000
     },
     {
       "name": "Manitoba",
-      "listings": 412,
-      "median_cad": 68500,
+      "listings": 415,
+      "median_cad": 67900,
       "low_cad": 10000,
       "high_cad": 765000
     },
     {
       "name": "New Brunswick",
-      "listings": 370,
-      "median_cad": 79500,
+      "listings": 377,
+      "median_cad": 79900,
       "low_cad": 10200,
       "high_cad": 554400
     },
     {
       "name": "Nova Scotia",
-      "listings": 37,
-      "median_cad": 130000,
+      "listings": 38,
+      "median_cad": 131650,
       "low_cad": 14500,
-      "high_cad": 300500
+      "high_cad": 377800
     },
     {
       "name": "Newfoundland and Labrador",
-      "listings": 25,
-      "median_cad": 135000,
+      "listings": 24,
+      "median_cad": 133998,
       "low_cad": 25500,
-      "high_cad": 499999
+      "high_cad": 431453
     },
     {
       "name": "Prince Edward Island",
