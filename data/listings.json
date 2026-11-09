@@ -10,7 +10,7 @@
     "category": "Misc",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-48-inch-pall-2019/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -24,7 +24,7 @@
     "category": "Misc",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/horst-hd5500-2023/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -38,7 +38,7 @@
     "category": "Grain Cart",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/unverferth-cart-1613-2023/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -52,7 +52,7 @@
     "category": "Misc",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/horsch-joker-rx30-2023/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -66,7 +66,7 @@
     "category": "Misc",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/vermeer-bpx9010-2025/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -80,7 +80,7 @@
     "category": "Tractor",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-axion-960tt-2024/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -94,7 +94,7 @@
     "category": "Combine",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/case-ih-8250-2021-4/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -108,7 +108,7 @@
     "category": "Tractor",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/john-deere-7230r-2012/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -122,35 +122,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-maxflex-1200-2013/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
-    "outlier": false
-  },
-  {
-    "make": "John Deere",
-    "model": "S790",
-    "year": 2018,
-    "hours": 2221,
-    "price_cad": 339900,
-    "location": "HIGH RIVER, AB",
-    "province": "AB",
-    "category": "Combine",
-    "source": "Alberta AG Centre",
-    "source_url": "https://ab-ag.ca/listings/john-deere-s790-2018/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
-    "outlier": false
-  },
-  {
-    "make": "CLAAS",
-    "model": "JAGUAR 960",
-    "year": 2022,
-    "hours": 1096,
-    "price_cad": 625000,
-    "location": "STETTLER, AB",
-    "province": "AB",
-    "category": "Forage Harvester",
-    "source": "Alberta AG Centre",
-    "source_url": "https://ab-ag.ca/listings/claas-960-2022-2/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -164,7 +136,7 @@
     "category": "Header Forage",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-orbis-900-2024/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -178,35 +150,7 @@
     "category": "Header Forage",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-orbis-600-2022/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
-    "outlier": false
-  },
-  {
-    "make": "John Deere",
-    "model": "HD40R",
-    "year": 2021,
-    "hours": null,
-    "price_cad": 129900,
-    "location": "HIGH RIVER, AB",
-    "province": "AB",
-    "category": "Headers",
-    "source": "Alberta AG Centre",
-    "source_url": "https://ab-ag.ca/listings/john-deere-hd40r-2021/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
-    "outlier": false
-  },
-  {
-    "make": "John Deere",
-    "model": "HD40R",
-    "year": 2021,
-    "hours": null,
-    "price_cad": 129900,
-    "location": "HIGH RIVER, AB",
-    "province": "AB",
-    "category": "Headers",
-    "source": "Alberta AG Centre",
-    "source_url": "https://ab-ag.ca/listings/john-deere-hd40r-2021-2/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -220,7 +164,7 @@
     "category": "Combine",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-8700-2021/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -234,7 +178,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd145-2021/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -248,21 +192,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd135-2020/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
-    "outlier": false
-  },
-  {
-    "make": "John Deere",
-    "model": "S790",
-    "year": 2018,
-    "hours": 2366,
-    "price_cad": 333900,
-    "location": "HIGH RIVER, AB",
-    "province": "AB",
-    "category": "Combine",
-    "source": "Alberta AG Centre",
-    "source_url": "https://ab-ag.ca/listings/john-deere-s790-2018-2/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -276,7 +206,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-convio-1230-2023-4/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -290,7 +220,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/case-ih-3016-2015/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -304,21 +234,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd250-2024/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
-    "outlier": false
-  },
-  {
-    "make": "CLAAS",
-    "model": "12.650",
-    "year": 2026,
-    "hours": null,
-    "price_cad": 577900,
-    "location": "COALDALE, AB",
-    "province": "AB",
-    "category": "Tractor",
-    "source": "Alberta AG Centre",
-    "source_url": "https://ab-ag.ca/listings/claas-12-650-2026/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -332,21 +248,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd135-2021/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
-    "outlier": false
-  },
-  {
-    "make": "CLAAS",
-    "model": "LEXION 8800T",
-    "year": 2023,
-    "hours": 1009,
-    "price_cad": 849500,
-    "location": "HIGH RIVER, AB",
-    "province": "AB",
-    "category": "Combine",
-    "source": "Alberta AG Centre",
-    "source_url": "https://ab-ag.ca/listings/claas-8800tt-2023/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -360,7 +262,7 @@
     "category": "Forage Harvester",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-970-2022-4/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -374,7 +276,7 @@
     "category": "Combine",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-lexion-8700-2022/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -388,7 +290,7 @@
     "category": "Combine",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-lexion-8700-2022-2/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -402,7 +304,7 @@
     "category": "Combine",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-lexion-8700-2022-3/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -416,7 +318,7 @@
     "category": "Combine",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-lexion-8700-2022-4/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -430,7 +332,7 @@
     "category": "Combine",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-lexion-8700-2022-5/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -444,7 +346,7 @@
     "category": "Tractor",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-xerion-12-650-trac-2023/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -458,7 +360,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd250-2022/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -472,21 +374,7 @@
     "category": "Forage Harvester",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-970-2022-2/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Horsch",
-    "model": "LEEB 6.300VL",
-    "year": 2023,
-    "hours": null,
-    "price_cad": 749000,
-    "location": "HIGH RIVER, AB",
-    "province": "AB",
-    "category": "Misc",
-    "source": "Alberta AG Centre",
-    "source_url": "https://ab-ag.ca/listings/horsch-leeb-6-300-2023/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -500,7 +388,7 @@
     "category": "Tractor",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-xerion-4500-2024/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -514,7 +402,7 @@
     "category": "Air Seeder",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/john-deere-n534f-2024/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -528,21 +416,7 @@
     "category": "Misc",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/horsch-leeb-8-460vl-2025/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
-    "outlier": false
-  },
-  {
-    "make": "CLAAS",
-    "model": "CONVIO FLEX",
-    "year": 2020,
-    "hours": null,
-    "price_cad": 75900,
-    "location": "HIGH RIVER, AB",
-    "province": "AB",
-    "category": "Headers",
-    "source": "Alberta AG Centre",
-    "source_url": "https://ab-ag.ca/listings/claas-convio-flex-2020/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -556,7 +430,7 @@
     "category": "Combine",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-lexion-760tt-2018-2/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -570,7 +444,7 @@
     "category": "Combine",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-lexion-760tt-2018/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -584,7 +458,7 @@
     "category": "Tractor",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-axion-860-2024/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -598,7 +472,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd250-2024-2/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -612,7 +486,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd140-2021/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -626,7 +500,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd140-2021-2/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -640,7 +514,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd140-2021-3/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -654,7 +528,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd140-2021-4/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -668,7 +542,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd140-2021-5/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -682,7 +556,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd135-2019/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -696,7 +570,7 @@
     "category": "Combine",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/new-holland-cr8-90-2020/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -710,7 +584,7 @@
     "category": "Combine",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/new-holland-cr8-90-2022/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -724,7 +598,7 @@
     "category": "Header Forage",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-orbis-900-2017/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -738,7 +612,7 @@
     "category": "Air Drill",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/bourgault-3720-70-2020/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -752,7 +626,77 @@
     "category": "Air Drill",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/bourgault-3720-70-2021/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "John Deere",
+    "model": "HD40R",
+    "year": 2021,
+    "hours": null,
+    "price_cad": 119500,
+    "location": "HIGH RIVER, AB",
+    "province": "AB",
+    "category": "Headers",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/john-deere-hd40r-2021/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "John Deere",
+    "model": "HD40R",
+    "year": 2021,
+    "hours": null,
+    "price_cad": 119500,
+    "location": "HIGH RIVER, AB",
+    "province": "AB",
+    "category": "Headers",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/john-deere-hd40r-2021-2/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Horsch",
+    "model": "LEEB 6.300VL",
+    "year": 2023,
+    "hours": null,
+    "price_cad": 749000,
+    "location": "HIGH RIVER, AB",
+    "province": "AB",
+    "category": "Misc",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/horsch-leeb-6-300-2023/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "CLAAS",
+    "model": "LEXION 8700",
+    "year": 2025,
+    "hours": 690,
+    "price_cad": 839900,
+    "location": "HIGH RIVER, AB",
+    "province": "AB",
+    "category": "Combine",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/claas-lexion-8700-2025/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "CLAAS",
+    "model": "LEXION 8700",
+    "year": 2025,
+    "hours": 675,
+    "price_cad": 839900,
+    "location": "HIGH RIVER, AB",
+    "province": "AB",
+    "category": "Combine",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/claas-lexion-8700-2025-2/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -766,7 +710,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd140-2019/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -780,7 +724,7 @@
     "category": "Misc",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/horsch-joker-rx35-2023/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -794,7 +738,7 @@
     "category": "Misc",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/horsch-maestro-3215-2023/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -808,7 +752,7 @@
     "category": "Header Forage",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-orbis-600-2017-2/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -822,7 +766,7 @@
     "category": "Misc",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/horsch-maestro-4815-2023/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -836,7 +780,7 @@
     "category": "Misc",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/horsch-6-300vl-2021/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -850,21 +794,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd140-2018/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
-    "outlier": false
-  },
-  {
-    "make": "CLAAS",
-    "model": "AXION 940",
-    "year": 2021,
-    "hours": null,
-    "price_cad": 529900,
-    "location": "OLDS, AB",
-    "province": "AB",
-    "category": "Tractor",
-    "source": "Alberta AG Centre",
-    "source_url": "https://ab-ag.ca/listings/claas-axion-940-2021/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -878,7 +808,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/macdon-fd140-2022/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -892,7 +822,7 @@
     "category": "Forage Harvester",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-960-2021/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -906,7 +836,7 @@
     "category": "Combine",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-760-2019/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -920,21 +850,7 @@
     "category": "Header Forage",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-orbis-750-2022-2/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
-    "outlier": false
-  },
-  {
-    "make": "CLAAS",
-    "model": "ORBIS 750",
-    "year": 2022,
-    "hours": null,
-    "price_cad": 160900,
-    "location": "DUNMORE, AB",
-    "province": "AB",
-    "category": "Header Forage",
-    "source": "Alberta AG Centre",
-    "source_url": "https://ab-ag.ca/listings/claas-orbis-750-2022-4/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -948,7 +864,7 @@
     "category": "Forage Harvester",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-970-2022-3/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -962,7 +878,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-convio-1230-2023/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -976,7 +892,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-convio-1230-2023-2/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -990,7 +906,7 @@
     "category": "Headers",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-convio-1230-2023-3/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -1004,21 +920,7 @@
     "category": "Tractor",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-axion-960tt-2021/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
-    "outlier": false
-  },
-  {
-    "make": "CLAAS",
-    "model": "XERION 5000",
-    "year": 2024,
-    "hours": null,
-    "price_cad": 699900,
-    "location": "COALDALE, AB",
-    "province": "AB",
-    "category": "Tractor",
-    "source": "Alberta AG Centre",
-    "source_url": "https://ab-ag.ca/listings/claas-5000-2024/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -1032,21 +934,7 @@
     "category": "Combine",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-8600-2021/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
-    "outlier": false
-  },
-  {
-    "make": "CLAAS",
-    "model": "JAGUAR 970",
-    "year": 2022,
-    "hours": 1883,
-    "price_cad": 568900,
-    "location": "DUNMORE, AB",
-    "province": "AB",
-    "category": "Forage Harvester",
-    "source": "Alberta AG Centre",
-    "source_url": "https://ab-ag.ca/listings/claas-970-2022-5/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -1060,7 +948,7 @@
     "category": "Forage Harvester",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-960-2024/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -1074,7 +962,7 @@
     "category": "Air Seeder",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/john-deere-n534f-2024-2/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -1088,7 +976,119 @@
     "category": "Combine",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-760-2016/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "CLAAS",
+    "model": "CONVIO 1380",
+    "year": 2019,
+    "hours": null,
+    "price_cad": 88900,
+    "location": "DUNMORE, AB",
+    "province": "AB",
+    "category": "Headers",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/claas-convio-1380-2019/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "CLAAS",
+    "model": "ORBIS 750",
+    "year": 2022,
+    "hours": null,
+    "price_cad": 160900,
+    "location": "DUNMORE, AB",
+    "province": "AB",
+    "category": "Header Forage",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/claas-orbis-750-2022-4/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "CLAAS",
+    "model": "XERION 5000",
+    "year": 2024,
+    "hours": null,
+    "price_cad": 699900,
+    "location": "COALDALE, AB",
+    "province": "AB",
+    "category": "Tractor",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/claas-5000-2024/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "CLAAS",
+    "model": "JAGUAR 970",
+    "year": 2022,
+    "hours": 1883,
+    "price_cad": 568900,
+    "location": "DUNMORE, AB",
+    "province": "AB",
+    "category": "Forage Harvester",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/claas-970-2022-5/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "CLAAS",
+    "model": "LEXION 8800T",
+    "year": 2023,
+    "hours": 1009,
+    "price_cad": 849500,
+    "location": "HIGH RIVER, AB",
+    "province": "AB",
+    "category": "Combine",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/claas-8800tt-2023/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "CLAAS",
+    "model": "CONVIO FLEX",
+    "year": 2020,
+    "hours": null,
+    "price_cad": 75900,
+    "location": "HIGH RIVER, AB",
+    "province": "AB",
+    "category": "Headers",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/claas-convio-flex-2020/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "John Deere",
+    "model": "S790",
+    "year": 2018,
+    "hours": 2366,
+    "price_cad": 309500,
+    "location": "HIGH RIVER, AB",
+    "province": "AB",
+    "category": "Combine",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/john-deere-s790-2018-2/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "John Deere",
+    "model": "S790",
+    "year": 2018,
+    "hours": 2221,
+    "price_cad": 319500,
+    "location": "HIGH RIVER, AB",
+    "province": "AB",
+    "category": "Combine",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/john-deere-s790-2018/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -1102,21 +1102,7 @@
     "category": "Forage Harvester",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/claas-960-2019/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Misc",
-    "model": "RG1300C",
-    "year": 2022,
-    "hours": null,
-    "price_cad": 459900,
-    "location": "HIGH RIVER, AB",
-    "province": "AB",
-    "category": "Misc",
-    "source": "Alberta AG Centre",
-    "source_url": "https://ab-ag.ca/listings/misc-rg1300c-2022/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -1130,7 +1116,35 @@
     "category": "Misc",
     "source": "Alberta AG Centre",
     "source_url": "https://ab-ag.ca/listings/misc-rg1300c-2022-2/",
-    "date_seen": "2026-11-02T07:22:04-06:00",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "CLAAS",
+    "model": "LEXION 8700",
+    "year": 2023,
+    "hours": 963,
+    "price_cad": 650900,
+    "location": "HIGH RIVER, AB",
+    "province": "AB",
+    "category": "Combine",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/claas-lexion-8700-2023/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Misc",
+    "model": "RG1300C",
+    "year": 2022,
+    "hours": null,
+    "price_cad": 459900,
+    "location": "HIGH RIVER, AB",
+    "province": "AB",
+    "category": "Misc",
+    "source": "Alberta AG Centre",
+    "source_url": "https://ab-ag.ca/listings/misc-rg1300c-2022/",
+    "date_seen": "2026-11-09T07:02:07-06:00",
     "outlier": false
   },
   {
@@ -1144,7 +1158,7 @@
     "category": "Track Tractor",
     "source": "Western Tractor",
     "source_url": "https://www.westerntractor.ca/usedequipment",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1158,7 +1172,7 @@
     "category": "Combine",
     "source": "Western Tractor",
     "source_url": "https://www.westerntractor.ca/usedequipment",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1172,7 +1186,7 @@
     "category": "Combine",
     "source": "Western Tractor",
     "source_url": "https://www.westerntractor.ca/usedequipment",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1186,7 +1200,7 @@
     "category": "Combine",
     "source": "Western Tractor",
     "source_url": "https://www.westerntractor.ca/usedequipment",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1200,7 +1214,7 @@
     "category": "Combine",
     "source": "Western Tractor",
     "source_url": "https://www.westerntractor.ca/usedequipment",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1214,7 +1228,7 @@
     "category": "Combine",
     "source": "Western Tractor",
     "source_url": "https://www.westerntractor.ca/usedequipment",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1228,7 +1242,7 @@
     "category": "Combine",
     "source": "Western Tractor",
     "source_url": "https://www.westerntractor.ca/usedequipment",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1242,7 +1256,7 @@
     "category": "Combine",
     "source": "Western Tractor",
     "source_url": "https://www.westerntractor.ca/usedequipment",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1256,7 +1270,7 @@
     "category": "Combine",
     "source": "Western Tractor",
     "source_url": "https://www.westerntractor.ca/usedequipment",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1270,7 +1284,7 @@
     "category": "Combine",
     "source": "Western Tractor",
     "source_url": "https://www.westerntractor.ca/usedequipment",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1284,7 +1298,7 @@
     "category": "Combine",
     "source": "Western Tractor",
     "source_url": "https://www.westerntractor.ca/usedequipment",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1298,7 +1312,147 @@
     "category": "Track Tractor",
     "source": "Western Tractor",
     "source_url": "https://www.westerntractor.ca/usedequipment",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "MK",
+    "model": "Martin PFM90RD-C",
+    "year": 2024,
+    "hours": null,
+    "price_cad": 4750,
+    "location": "Saskatoon, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2024-mk-martin-pfm90rd-c/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "HLA",
+    "model": "LA-THMBHVSG96MAQ",
+    "year": 2024,
+    "hours": null,
+    "price_cad": 12050,
+    "location": "Saskatoon, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2024-hla-la-thmbhvsg96maq/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Fendt",
+    "model": "516 Gen3",
+    "year": 2023,
+    "hours": null,
+    "price_cad": 269000,
+    "location": "Saskatoon, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2023-fendt-516-gen3/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "HLA",
+    "model": "SB4203W",
+    "year": 2025,
+    "hours": null,
+    "price_cad": 23500,
+    "location": "Saskatoon, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2025-hla-sb4203w/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Frontier",
+    "model": "72\" Box Scraper",
+    "year": 2019,
+    "hours": null,
+    "price_cad": null,
+    "location": "Saskatoon, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2019-frontier-72-box-scraper/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Versatile",
+    "model": "620DT",
+    "year": 2025,
+    "hours": null,
+    "price_cad": null,
+    "location": "Saskatoon, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2025-versatile-620dt-3/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "RoGator",
+    "model": "RG1100C",
+    "year": 2022,
+    "hours": null,
+    "price_cad": 521000,
+    "location": "Saskatoon, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2022-rogator-rg1100c/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "RoGator",
+    "model": "RG1100B",
+    "year": 2017,
+    "hours": null,
+    "price_cad": null,
+    "location": "Saskatoon, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2017-rogator-rg1100b/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Convey-All",
+    "model": "CSC-1545",
+    "year": 2023,
+    "hours": null,
+    "price_cad": 99000,
+    "location": "Saskatoon, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2023-convey-all-csc-1545/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "John Deere",
+    "model": "3520",
+    "year": 2011,
+    "hours": null,
+    "price_cad": 46000,
+    "location": "Saskatoon, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2011-john-deere-3520/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1312,7 +1466,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2025-fendt-ftc9-2/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1326,7 +1480,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2025-fendt-ftc9/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1340,7 +1494,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2013-challenger-mt955c/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1354,7 +1508,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2018-versatile-570dt/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1368,7 +1522,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2016-case-ih-steiger-580-quadtrac/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1382,21 +1536,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2018-new-holland-cr8-90-2/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Brandt",
-    "model": "1547",
-    "year": 2018,
-    "hours": null,
-    "price_cad": null,
-    "location": "Saskatoon, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2018-brandt-1547/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1410,7 +1550,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2008-john-deere-9870sts/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1424,7 +1564,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2023-terragator-tg8400c/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1438,21 +1578,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2012-convey-all-cst40-c/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "New Holland",
-    "model": "CR8.90",
-    "year": 2018,
-    "hours": 1189,
-    "price_cad": 282000,
-    "location": "Perdue, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2018-new-holland-cr8-90/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1466,7 +1592,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2025-versatile-620dt/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1480,7 +1606,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2022-macdon-fd145/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1494,21 +1620,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2021-honey-bee-af240/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Big",
-    "model": "Dog BlackJack",
-    "year": 2018,
-    "hours": 98,
-    "price_cad": 5500,
-    "location": "Saskatoon, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2018-big-dog-blackjack/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1522,7 +1634,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2015-john-deere-w150/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1536,7 +1648,21 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2015-versatile-sx280/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Big",
+    "model": "Dog BlackJack",
+    "year": 2018,
+    "hours": 98,
+    "price_cad": 5500,
+    "location": "Saskatoon, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2018-big-dog-blackjack/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1550,7 +1676,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2021-fendt-724-gen6/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1564,7 +1690,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/bergen-7200/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1578,7 +1704,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2020-rogator-rg1300c/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1592,7 +1718,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/1993-john-deere-8970/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1606,49 +1732,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2017-salford-i-4124/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Land",
-    "model": "Pride STH1590",
-    "year": null,
-    "hours": null,
-    "price_cad": 1500,
-    "location": "Saskatoon, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/land-pride-sth1590/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Massey Ferguson",
-    "model": "RB4180V",
-    "year": 2019,
-    "hours": 10878,
-    "price_cad": 59900,
-    "location": "Perdue, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2019-massey-ferguson-rb4180v/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Versatile",
-    "model": "Viking VT320",
-    "year": 2016,
-    "hours": null,
-    "price_cad": 57500,
-    "location": "Swift Current, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2016-versatile-viking-vt320/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1662,7 +1746,49 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2003-agco-gleaner-4000/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Land",
+    "model": "Pride STH1590",
+    "year": null,
+    "hours": null,
+    "price_cad": 1500,
+    "location": "Saskatoon, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/land-pride-sth1590/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Massey Ferguson",
+    "model": "RB4180V",
+    "year": 2019,
+    "hours": 10878,
+    "price_cad": 59900,
+    "location": "Perdue, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2019-massey-ferguson-rb4180v/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Versatile",
+    "model": "Viking VT320",
+    "year": 2016,
+    "hours": null,
+    "price_cad": 57500,
+    "location": "Swift Current, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2016-versatile-viking-vt320/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1676,21 +1802,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2021-honey-bee-240-airflex-2/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Honey",
-    "model": "Bee 240 AirFlex NXT",
-    "year": 2024,
-    "hours": null,
-    "price_cad": 159000,
-    "location": "Swift Current, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2024-honey-bee-240-airflex-nxt/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1704,7 +1816,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2023-honey-bee-240-airflex-2/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1718,7 +1830,21 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2023-honey-bee-240-airflex/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Honey",
+    "model": "Bee 240 AirFlex NXT",
+    "year": 2024,
+    "hours": null,
+    "price_cad": 159000,
+    "location": "Swift Current, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2024-honey-bee-240-airflex-nxt/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1732,7 +1858,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2023-agco-gleaner-s98-4/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1746,7 +1872,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2023-agco-gleaner-s98-3/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1760,7 +1886,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2023-agco-gleaner-s98-2/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1774,7 +1900,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2023-agco-gleaner-s98/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1788,7 +1914,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2019-rogator-rg1300c/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1802,7 +1928,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2017-convey-all-cst-1500-2/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1816,35 +1942,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2023-versatile-620dt/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Fendt",
-    "model": "FTC9",
-    "year": 2024,
-    "hours": 286,
-    "price_cad": 895000,
-    "location": "Swift Current, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2024-fendt-ftc9/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Fendt",
-    "model": "FTC9",
-    "year": 2024,
-    "hours": 358,
-    "price_cad": 891000,
-    "location": "Swift Current, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2024-fendt-ftc9-2/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1858,7 +1956,35 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2024-massey-ferguson-1316s/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Fendt",
+    "model": "FTC9",
+    "year": 2024,
+    "hours": 286,
+    "price_cad": 895000,
+    "location": "Swift Current, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2024-fendt-ftc9/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Fendt",
+    "model": "FTC9",
+    "year": 2024,
+    "hours": 358,
+    "price_cad": 891000,
+    "location": "Swift Current, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2024-fendt-ftc9-2/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1872,35 +1998,7 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2013-agco-gleaner-s77/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Convey-All",
-    "model": "CST-1500",
-    "year": 2017,
-    "hours": 375,
-    "price_cad": 159000,
-    "location": "Perdue, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2017-convey-all-cst-1500/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Massey Ferguson",
-    "model": "1316S",
-    "year": 2023,
-    "hours": null,
-    "price_cad": 82000,
-    "location": "Swift Current, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2023-massey-ferguson-1316s/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -1914,91 +2012,35 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2011-agco-gleaner-s77-2/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
-    "make": "RoGator",
-    "model": "RG1300C",
-    "year": 2022,
-    "hours": 1658,
-    "price_cad": 598000,
-    "location": "Swift Current, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2022-rogator-rg1300c/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Sunflower",
-    "model": "9750",
-    "year": 2018,
-    "hours": null,
-    "price_cad": 99000,
-    "location": "Swift Current, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2018-sunflower-9750/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Fendt",
-    "model": "RG937",
-    "year": 2025,
-    "hours": 655,
-    "price_cad": 869000,
-    "location": "Saskatoon, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2025-fendt-rg937-2/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Fendt",
-    "model": "RG937",
-    "year": 2025,
-    "hours": 659,
-    "price_cad": 869000,
-    "location": "Saskatoon, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2025-fendt-rg937-3/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "MacDon",
-    "model": "FD75-40",
+    "make": "Convey-All",
+    "model": "CST-1500",
     "year": 2017,
-    "hours": null,
-    "price_cad": 89000,
-    "location": "Swift Current, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2017-macdon-fd75-40/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "MacDon",
-    "model": "FD240",
-    "year": 2024,
-    "hours": null,
-    "price_cad": 174000,
+    "hours": 375,
+    "price_cad": 159000,
     "location": "Perdue, SK",
     "province": "SK",
     "category": null,
     "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2024-macdon-fd240/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "source_url": "https://fulllineag.com/equipment/listing/2017-convey-all-cst-1500/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Massey Ferguson",
+    "model": "1316S",
+    "year": 2023,
+    "hours": null,
+    "price_cad": 82000,
+    "location": "Swift Current, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2023-massey-ferguson-1316s/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -2012,105 +2054,91 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2006-wilson-trailer/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
-    "make": "Fendt",
-    "model": "724 Gen7",
-    "year": 2025,
-    "hours": 846,
-    "price_cad": 485000,
-    "location": "Swift Current, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2025-fendt-724-gen7/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "RoGator",
-    "model": "RG1100C",
-    "year": 2019,
-    "hours": 2335,
-    "price_cad": 316000,
+    "make": "MacDon",
+    "model": "FD240",
+    "year": 2024,
+    "hours": null,
+    "price_cad": 174000,
     "location": "Perdue, SK",
     "province": "SK",
     "category": null,
     "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2019-rogator-rg1100c/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "source_url": "https://fulllineag.com/equipment/listing/2024-macdon-fd240/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "MacDon",
+    "model": "FD75-40",
+    "year": 2017,
+    "hours": null,
+    "price_cad": 89000,
+    "location": "Swift Current, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2017-macdon-fd75-40/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
     "make": "Fendt",
-    "model": "FTC8",
-    "year": 2024,
-    "hours": 384,
-    "price_cad": 825000,
-    "location": "Swift Current, SK",
+    "model": "RG937",
+    "year": 2025,
+    "hours": 659,
+    "price_cad": 869000,
+    "location": "Saskatoon, SK",
     "province": "SK",
     "category": null,
     "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2024-fendt-ftc8/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "source_url": "https://fulllineag.com/equipment/listing/2025-fendt-rg937-3/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Fendt",
+    "model": "RG937",
+    "year": 2025,
+    "hours": 655,
+    "price_cad": 869000,
+    "location": "Saskatoon, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2025-fendt-rg937-2/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
     "make": "RoGator",
-    "model": "RG1300B",
-    "year": 2015,
-    "hours": 3102,
-    "price_cad": 229000,
+    "model": "RG1300C",
+    "year": 2022,
+    "hours": 1658,
+    "price_cad": 598000,
     "location": "Swift Current, SK",
     "province": "SK",
     "category": null,
     "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2015-rogator-rg1300b/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "source_url": "https://fulllineag.com/equipment/listing/2022-rogator-rg1300c/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
-    "make": "John Deere",
-    "model": "9400",
-    "year": 2000,
-    "hours": 8611,
+    "make": "Sunflower",
+    "model": "9750",
+    "year": 2018,
+    "hours": null,
     "price_cad": 99000,
     "location": "Swift Current, SK",
     "province": "SK",
     "category": null,
     "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2000-john-deere-9400/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Morris",
-    "model": "C2 CONTOUR",
-    "year": 2016,
-    "hours": null,
-    "price_cad": 159000,
-    "location": "Swift Current, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2016-morris-c2-contour/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
-    "outlier": false
-  },
-  {
-    "make": "John Deere",
-    "model": "Z915E",
-    "year": 2021,
-    "hours": 591,
-    "price_cad": 11500,
-    "location": "Swift Current, SK",
-    "province": "SK",
-    "category": null,
-    "source": "Full Line Ag",
-    "source_url": "https://fulllineag.com/equipment/listing/2021-john-deere-z915e/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "source_url": "https://fulllineag.com/equipment/listing/2018-sunflower-9750/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -2124,7 +2152,105 @@
     "category": null,
     "source": "Full Line Ag",
     "source_url": "https://fulllineag.com/equipment/listing/2017-massey-ferguson-9565/",
-    "date_seen": "2026-11-02T07:27:29-06:00",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "John Deere",
+    "model": "Z915E",
+    "year": 2021,
+    "hours": 591,
+    "price_cad": 11500,
+    "location": "Swift Current, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2021-john-deere-z915e/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Morris",
+    "model": "C2 CONTOUR",
+    "year": 2016,
+    "hours": null,
+    "price_cad": 159000,
+    "location": "Swift Current, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2016-morris-c2-contour/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "John Deere",
+    "model": "9400",
+    "year": 2000,
+    "hours": 8611,
+    "price_cad": 99000,
+    "location": "Swift Current, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2000-john-deere-9400/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "RoGator",
+    "model": "RG1300B",
+    "year": 2015,
+    "hours": 3102,
+    "price_cad": 229000,
+    "location": "Swift Current, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2015-rogator-rg1300b/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Fendt",
+    "model": "FTC8",
+    "year": 2024,
+    "hours": 384,
+    "price_cad": 825000,
+    "location": "Perdue, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2024-fendt-ftc8/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "RoGator",
+    "model": "RG1100C",
+    "year": 2019,
+    "hours": 2335,
+    "price_cad": 316000,
+    "location": "Perdue, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2019-rogator-rg1100c/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
+    "outlier": false
+  },
+  {
+    "make": "Fendt",
+    "model": "724 Gen7",
+    "year": 2025,
+    "hours": 846,
+    "price_cad": 485000,
+    "location": "Swift Current, SK",
+    "province": "SK",
+    "category": null,
+    "source": "Full Line Ag",
+    "source_url": "https://fulllineag.com/equipment/listing/2025-fendt-724-gen7/",
+    "date_seen": "2026-11-09T07:07:36-06:00",
     "outlier": false
   },
   {
@@ -2138,7 +2264,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2014-case-3020-header-dual-drive/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2152,7 +2278,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2004-case-flx-4510-floater/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2166,21 +2292,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2009-bourgault-6550-bag-lift-dbl-shoot-4-meters-dlx-auger/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
-    "outlier": false
-  },
-  {
-    "make": "NEW LEADER",
-    "model": "NL 4500",
-    "year": 2018,
-    "hours": null,
-    "price_cad": 85000,
-    "location": "SOURIS, MANITOBA",
-    "province": "MB",
-    "category": "Used",
-    "source": "Prairie Sales",
-    "source_url": "https://prairiesales.ca/listing/2018-new-leader-nl-4500/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2194,7 +2306,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2010-bourgault-as-new-please-read/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2208,21 +2320,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2008-bourgault-64-5710-air-seeder-nh3/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
-    "outlier": false
-  },
-  {
-    "make": "DEGELMAN",
-    "model": "RP6000",
-    "year": 2010,
-    "hours": null,
-    "price_cad": 13000,
-    "location": "Moosomin Saskatchewan",
-    "province": "SK",
-    "category": "Used",
-    "source": "Prairie Sales",
-    "source_url": "https://prairiesales.ca/listing/2010-degelman-rp-6000-rock-picker/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2236,7 +2334,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2016-apv-air-spreader-pasture-seeding/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2250,7 +2348,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2021-john-deere-rd40f-flex-draper-green-lighted/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2264,7 +2362,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2002-macdon-straight-cut-header-36/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2278,7 +2376,7 @@
     "category": "New",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2025-fieldmaster-silage-wagon-high-speed-20/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2292,7 +2390,7 @@
     "category": "New",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2025-smyth-field-master-50-new/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2306,7 +2404,7 @@
     "category": "New",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2025-field-master-super-cube-pro-70/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2320,7 +2418,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2001-salford-9620/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2334,7 +2432,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2014-case-7230/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2348,49 +2446,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2020-john-deere-745-fd-hydra-flex-draper/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Case IH",
-    "model": "2042",
-    "year": 2008,
-    "hours": null,
-    "price_cad": 32000,
-    "location": "Virden, MB",
-    "province": "MB",
-    "category": "Used",
-    "source": "Prairie Sales",
-    "source_url": "https://prairiesales.ca/listing/2008-case-2042-36-pea-auger-and-transport/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Case IH",
-    "model": "2020-35",
-    "year": 2006,
-    "hours": null,
-    "price_cad": 28000,
-    "location": "Virden, MB",
-    "province": "MB",
-    "category": "Used",
-    "source": "Prairie Sales",
-    "source_url": "https://prairiesales.ca/listing/2006-case-2020-35-flex-header-transport/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
-    "outlier": false
-  },
-  {
-    "make": "Case IH",
-    "model": "2016",
-    "year": 2010,
-    "hours": null,
-    "price_cad": 11000,
-    "location": "Virden, MB",
-    "province": "MB",
-    "category": "Used",
-    "source": "Prairie Sales",
-    "source_url": "https://prairiesales.ca/listing/2010-case-2016-pickup-header/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2404,7 +2460,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2010-case-atx-700-drill-adx-3430-cart/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2418,7 +2474,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2008-terragator-8203/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2432,7 +2488,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2001-bourgault-7200-84/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2446,7 +2502,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2007-international-9400/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2460,7 +2516,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2003-john-deere-4710/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2474,7 +2530,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2009-60-seed-hawk-6550st-bourgault/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2488,7 +2544,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2008-international-eagle-9900i/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2502,7 +2558,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2004-bourgault-5710-tank-4350-drill/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2516,7 +2572,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2016-john-deere-8345r-ivt-transmission/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2530,7 +2586,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2009-wolverine-ditcher-rebuilt/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2544,7 +2600,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/john-deere-7250r-with-loader-and-bucket/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2552,18 +2608,18 @@
     "model": "D450",
     "year": 2013,
     "hours": 1986,
-    "price_cad": null,
+    "price_cad": 79900,
     "location": "Saint Paul Alberta",
     "province": "AB",
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2013-and-2012-d450-john-deere-swathers/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
     "make": "Seed Hawk",
-    "model": null,
+    "model": "33.7",
     "year": 2016,
     "hours": null,
     "price_cad": 242000,
@@ -2572,7 +2628,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2016-seed-hawk-810-tank-and-80-drill/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2586,7 +2642,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2007-new-holland-t9020-leon-47-14-blade/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2600,7 +2656,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2020-rite-way-f3-52-land-roller/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2614,7 +2670,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2013-degelman-strawmaster-70-sm-2000/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2628,7 +2684,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/meridian-auger-slmd-12-95-2021/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2642,7 +2698,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2023-rightline-ntz8-100-rock-picker/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2656,7 +2712,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2023-timpte-super-hopper-45-tri-axle/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2670,7 +2726,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2019-new-holland-powerstar-120/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2684,7 +2740,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2009-9220-massey-ferguson-swather/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2698,7 +2754,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2026-cst-550-convey-all/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2712,7 +2768,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2022-case-9250-with-tracks-hrs-1013-695/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2720,13 +2776,13 @@
     "model": "VMWB 2648-34",
     "year": 2025,
     "hours": null,
-    "price_cad": null,
+    "price_cad": 7500,
     "location": "Brandon, Manitoba",
     "province": "MB",
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/jbs-spreader-30-ton-wide-body-3-4-units-available-nov-2026/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2740,35 +2796,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2012-case-ih-quadtrac-600-4048-hrs/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
-    "outlier": false
-  },
-  {
-    "make": "John Deere",
-    "model": "936D",
-    "year": 2004,
-    "hours": null,
-    "price_cad": 15000,
-    "location": "Moosomin Sk",
-    "province": "SK",
-    "category": "Used",
-    "source": "Prairie Sales",
-    "source_url": "https://prairiesales.ca/listing/2004-936d-john-deere-header/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
-    "outlier": false
-  },
-  {
-    "make": "MacDon",
-    "model": "972",
-    "year": 2002,
-    "hours": null,
-    "price_cad": 17000,
-    "location": "Moosomin Sk",
-    "province": "SK",
-    "category": "Used",
-    "source": "Prairie Sales",
-    "source_url": "https://prairiesales.ca/listing/2002-macdon-972/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2782,7 +2810,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2013-john-deere-w150/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2796,7 +2824,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2021-farmax-mi-interceptor/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2810,7 +2838,7 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2011-john-deere-1835-60-air-drill-1910-air-tank/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2824,7 +2852,63 @@
     "category": "Used",
     "source": "Prairie Sales",
     "source_url": "https://prairiesales.ca/listing/2019-corn-husker-convertible-trailer-800-hfa-48/",
-    "date_seen": "2026-11-02T07:27:47-06:00",
+    "date_seen": "2026-11-09T07:07:58-06:00",
+    "outlier": false
+  },
+  {
+    "make": "DEGELMAN",
+    "model": "SM7000",
+    "year": 2019,
+    "hours": null,
+    "price_cad": 29900,
+    "location": "Regina, SK",
+    "province": "SK",
+    "category": "Used",
+    "source": "Prairie Sales",
+    "source_url": "https://prairiesales.ca/listing/2019-degelman-strawmaster-sm-7000-70/",
+    "date_seen": "2026-11-09T07:07:58-06:00",
+    "outlier": false
+  },
+  {
+    "make": "MacDon",
+    "model": "fd140",
+    "year": 2020,
+    "hours": null,
+    "price_cad": 74900,
+    "location": "Regina, SK",
+    "province": "SK",
+    "category": "Used",
+    "source": "Prairie Sales",
+    "source_url": "https://prairiesales.ca/listing/2020-macdon-fd140-40/",
+    "date_seen": "2026-11-09T07:07:58-06:00",
+    "outlier": false
+  },
+  {
+    "make": "New Holland",
+    "model": "76C",
+    "year": 2004,
+    "hours": null,
+    "price_cad": 7500,
+    "location": "Rossburn, MB",
+    "province": "MB",
+    "category": "Used",
+    "source": "Prairie Sales",
+    "source_url": "https://prairiesales.ca/listing/2004-new-holland-76c-pickup-header-ca7500/",
+    "date_seen": "2026-11-09T07:07:58-06:00",
+    "outlier": false
+  },
+  {
+    "make": "New Holland",
+    "model": "94c-36",
+    "year": 2009,
+    "hours": null,
+    "price_cad": 16000,
+    "location": "Rossburn, MB",
+    "province": "MB",
+    "category": "Used",
+    "source": "Prairie Sales",
+    "source_url": "https://prairiesales.ca/listing/2009-new-holland-94c-36-straight-cut-header/",
+    "date_seen": "2026-11-09T07:07:58-06:00",
     "outlier": false
   },
   {
@@ -2838,7 +2922,7 @@
     "category": "Used farm equipment",
     "source": "Flaman Agriculture",
     "source_url": "https://www.flamanagriculture.com/inventory/farm-king-allied-74-snowblower-p24330",
-    "date_seen": "2026-11-02T07:29:30-06:00",
+    "date_seen": "2026-11-09T07:09:30-06:00",
     "outlier": false
   },
   {
@@ -2852,7 +2936,7 @@
     "category": "Used farm equipment",
     "source": "Flaman Agriculture",
     "source_url": "https://www.flamanagriculture.com/inventory/2016-wishek-10-842n-heavy-offset-breaking-disc-p24159",
-    "date_seen": "2026-11-02T07:29:30-06:00",
+    "date_seen": "2026-11-09T07:09:30-06:00",
     "outlier": false
   },
   {
@@ -2866,7 +2950,7 @@
     "category": "Used farm equipment",
     "source": "Flaman Agriculture",
     "source_url": "https://www.flamanagriculture.com/inventory/2022-brandt-1345a-lp-u-trough-auger-p16087",
-    "date_seen": "2026-11-02T07:29:30-06:00",
+    "date_seen": "2026-11-09T07:09:30-06:00",
     "outlier": false
   },
   {
@@ -2880,7 +2964,7 @@
     "category": "Used farm equipment",
     "source": "Flaman Agriculture",
     "source_url": "https://www.flamanagriculture.com/inventory/2013-westfield-16-x-85-swing-auger-p23097",
-    "date_seen": "2026-11-02T07:29:30-06:00",
+    "date_seen": "2026-11-09T07:09:30-06:00",
     "outlier": false
   },
   {
@@ -2894,7 +2978,7 @@
     "category": "Used farm equipment",
     "source": "Flaman Agriculture",
     "source_url": "https://www.flamanagriculture.com/inventory/10hp-3-phase-575-volt-super-flow-aeration-fan-p10572",
-    "date_seen": "2026-11-02T07:29:30-06:00",
+    "date_seen": "2026-11-09T07:09:30-06:00",
     "outlier": false
   },
   {
@@ -2908,7 +2992,7 @@
     "category": "Used farm equipment",
     "source": "Flaman Agriculture",
     "source_url": "https://www.flamanagriculture.com/inventory/opi-blue-wireless-system-components-p25288",
-    "date_seen": "2026-11-02T07:29:30-06:00",
+    "date_seen": "2026-11-09T07:09:30-06:00",
     "outlier": false
   },
   {
@@ -2922,7 +3006,7 @@
     "category": "Used farm equipment",
     "source": "Flaman Agriculture",
     "source_url": "https://www.flamanagriculture.com/inventory/baldor-industrial-electric-motor-p25229",
-    "date_seen": "2026-11-02T07:29:30-06:00",
+    "date_seen": "2026-11-09T07:09:30-06:00",
     "outlier": false
   },
   {
@@ -2936,7 +3020,7 @@
     "category": "Used farm equipment",
     "source": "Flaman Agriculture",
     "source_url": "https://www.flamanagriculture.com/inventory/honda-gx-200-engine-p24677",
-    "date_seen": "2026-11-02T07:29:30-06:00",
+    "date_seen": "2026-11-09T07:09:30-06:00",
     "outlier": false
   },
   {
@@ -2950,7 +3034,7 @@
     "category": "Used farm equipment",
     "source": "Flaman Agriculture",
     "source_url": "https://www.flamanagriculture.com/inventory/honda-gx-160-engine-p24676",
-    "date_seen": "2026-11-02T07:29:30-06:00",
+    "date_seen": "2026-11-09T07:09:30-06:00",
     "outlier": false
   }
 ]

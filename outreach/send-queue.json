@@ -1,0 +1,200 @@
+{
+  "from": "chinookcall@mail.grokbot.com",
+  "providerIdentifier": "grok-bot-agent-inbox",
+  "unsolicited": true,
+  "subject": "Featured placement on PrairieComps \u2014 free first month",
+  "body_file": "/workspace/prairiecomps/outreach/dealer-email-plain.txt",
+  "recipients": [
+    {
+      "dealer": "Alberta AG Centre",
+      "email": "sales@ab-ag.ca"
+    },
+    {
+      "dealer": "Prairie Sales",
+      "email": "spencer@prairiesales.ca"
+    },
+    {
+      "dealer": "Brandt Tractor",
+      "email": "webmaster@brandt.ca"
+    },
+    {
+      "dealer": "Mazergroup",
+      "email": "info@mazergroup.ca"
+    },
+    {
+      "dealer": "South Country Equipment",
+      "email": "sales@southcountry.ca"
+    },
+    {
+      "dealer": "Webb's Machinery",
+      "email": "sales@webbsmachinery.com"
+    },
+    {
+      "dealer": "Triag Implements",
+      "email": "sales.triag@telus.net"
+    },
+    {
+      "dealer": "Nors Construction Equipment ST",
+      "email": "blough@strongco.com"
+    },
+    {
+      "dealer": "Nors",
+      "email": "info@nors.com"
+    },
+    {
+      "dealer": "Bourgault Industries",
+      "email": "webmaster@bourgault.com"
+    },
+    {
+      "dealer": "MacDon Industries",
+      "email": "marketing@macdon.com"
+    },
+    {
+      "dealer": "Highline Manufacturing",
+      "email": "insidesales@highlinemfg.com"
+    },
+    {
+      "dealer": "SMS Equipment",
+      "email": "mneron@smsequip.com"
+    },
+    {
+      "dealer": "Wajax Equipment",
+      "email": "clenfesty@wajax.com"
+    },
+    {
+      "dealer": "Toromont Cat",
+      "email": "leads@toromont.com"
+    },
+    {
+      "dealer": "Enns Brothers",
+      "email": "sales@ennsbrothers.com"
+    },
+    {
+      "dealer": "Rite Way Mfg",
+      "email": "info@ritewaymfg.com"
+    },
+    {
+      "dealer": "Vermeer Canada (AB leads)",
+      "email": "Leads.AB@vermeercanada.com"
+    },
+    {
+      "dealer": "Vermeer Canada (MB leads)",
+      "email": "Leads.MB@vermeercanada.com"
+    },
+    {
+      "dealer": "Vermeer Canada (SK leads)",
+      "email": "Leads.SK@vermeercanada.com"
+    },
+    {
+      "dealer": "Kubota Canada",
+      "email": "kcl_g.customerservice@kubota.com"
+    },
+    {
+      "dealer": "Doepker Industries",
+      "email": "info@doepker.com"
+    },
+    {
+      "dealer": "ELMERS Manufacturing",
+      "email": "info@elmersmfg.com"
+    },
+    {
+      "dealer": "Alberta AG Centre (parts)",
+      "email": "parts@ab-ag.ca"
+    },
+    {
+      "dealer": "Alberta AG Centre (service)",
+      "email": "service@ab-ag.ca"
+    },
+    {
+      "dealer": "Highline Manufacturing (customer service)",
+      "email": "customerservice@highlinemfg.com"
+    },
+    {
+      "dealer": "MacDon (service)",
+      "email": "service@macdon.com"
+    }
+  ],
+  "skipped": [
+    {
+      "dealer": "Western Tractor",
+      "value": "https://www.westerntractor.ca/contact-us",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "Full Line Ag",
+      "value": "https://fulllineag.com/about/contact/",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "Flaman Agriculture",
+      "value": "https://www.flamanagriculture.com/contact",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "Flaman Group",
+      "value": "https://www.flaman.com/contact.php",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "Flaman Trailers",
+      "value": "https://flamantrailers.com/contact",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "Horizon Ag & Turf",
+      "value": "https://horizonagturf.com",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "Kramer Ltd",
+      "value": "https://www.kramer.ca/contact/",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "Foster's Ag",
+      "value": "https://fosterag.ca/contact",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "Degelman Industries",
+      "value": "https://degelman.com/contact-us",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "Meridian Manufacturing",
+      "value": "https://www.meridianmfg.com/about/contact-us/",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "Premier Equipment",
+      "value": "https://www.premierequipment.ca/contact",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "SeedMaster",
+      "value": "https://seedmaster.ca/contact-us/",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "Morris Equipment",
+      "value": "https://morrisequipment.ca/contact/",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "Paterson Grain",
+      "value": "https://www.patersongrain.com/contact-us/",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "Sakundiak / Meridian",
+      "value": "https://www.meridianmfg.com/about/contact-us/",
+      "reason": "contact-form-or-no-email"
+    },
+    {
+      "dealer": "Agriterra Equipment",
+      "value": "https://agriterraeq.com/contact/",
+      "reason": "contact-form-or-no-email"
+    }
+  ],
+  "instructions": "Parent must call SendEmail (not DraftExternalMessage, not user Gmail/Outlook) once per recipient with unsolicited:true, from chinookcall@mail.grokbot.com, pace a few seconds apart, append each result to send-log.csv. Retry a failure at most once."
+}
