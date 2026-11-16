@@ -509,6 +509,53 @@ def parse_prairie_sales_listing(html: str, url: str, seen: str) -> dict | None:
                 price = int(m.group(1).replace(",", ""))
             except ValueError:
                 price = None
+    if price is None:
+        # 2026-11 site redesign: current ask is in .panel__price > span.price
+        m = re.search(
+            r'class="panel__price"[^>]*>\s*<span class="price">\s*([^<]+)',
+            html,
+            re.I,
+        )
+        if m:
+            price = parse_money(m.group(1))
+    if price is None:
+        # JSON-LD Product offer (CAD asking price for this listing only)
+        for block in re.finditer(
+            r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',
+            html,
+            re.S | re.I,
+        ):
+            try:
+                data = json.loads(block.group(1))
+            except json.JSONDecodeError:
+                continue
+            nodes = data.get("@graph", data) if isinstance(data, dict) else data
+            if not isinstance(nodes, list):
+                nodes = [nodes]
+            for node in nodes:
+                if not isinstance(node, dict):
+                    continue
+                types = node.get("@type")
+                if isinstance(types, str):
+                    types = [types]
+                if not types or "Product" not in types:
+                    continue
+                offer = node.get("offers") or {}
+                if isinstance(offer, list) and offer:
+                    offer = offer[0]
+                if not isinstance(offer, dict):
+                    continue
+                raw_price = offer.get("price")
+                currency = (offer.get("priceCurrency") or "CAD").upper()
+                if raw_price is not None and currency in ("CAD", "CDN"):
+                    try:
+                        price = int(float(str(raw_price).replace(",", "")))
+                    except ValueError:
+                        price = parse_money(str(raw_price))
+                    if price:
+                        break
+            if price:
+                break
 
     if not make:
         # title fallback: "2014 CASE 7230"

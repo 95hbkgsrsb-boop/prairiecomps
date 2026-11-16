@@ -29,17 +29,15 @@
           <h1>Used farm &amp; heavy equipment asking prices you can trust</h1>
           <p class="lead">Search make/model comps built from public Alberta dealer listings. See median, low, and high asking prices — with links back to the source.</p>
           <div class="stats">
-            <div class="stat"><div class="n">217</div><div class="l">Listings in dataset</div></div>
+            <div class="stat"><div class="n">219</div><div class="l">Listings in dataset</div></div>
             <div class="stat"><div class="n">100</div><div class="l">Model pages</div></div>
-            <div class="stat"><div class="n">$159,500</div><div class="l">Overall median ask</div></div>
+            <div class="stat"><div class="n">$159,000</div><div class="l">Overall median ask</div></div>
             <div class="stat"><div class="n">54</div><div class="l">Makes covered</div></div>
           </div>
           <div class="filters" role="search">
             <input id="q" type="search" placeholder="Search make or model (e.g. John Deere 8R)" aria-label="Search make or model" />
-            <select id="make" aria-label="Filter by make"><option value="">All makes</option><option value="10HP">10HP</option>
-<option value="AGCO">AGCO</option>
+            <select id="make" aria-label="Filter by make"><option value="">All makes</option><option value="AGCO">AGCO</option>
 <option value="APV">APV</option>
-<option value="Baldor">Baldor</option>
 <option value="Bergen">Bergen</option>
 <option value="Big">Big</option>
 <option value="Bourgault">Bourgault</option>
@@ -51,11 +49,13 @@
 <option value="Corn Husker">Corn Husker</option>
 <option value="DEGELMAN">DEGELMAN</option>
 <option value="FARMAX">FARMAX</option>
+<option value="FREIGHTLINER">FREIGHTLINER</option>
 <option value="Farm King">Farm King</option>
 <option value="Fendt">Fendt</option>
+<option value="Forsberg">Forsberg</option>
 <option value="Frontier">Frontier</option>
+<option value="Frost">Frost</option>
 <option value="HLA">HLA</option>
-<option value="Honda">Honda</option>
 <option value="Honey">Honey</option>
 <option value="Horsch">Horsch</option>
 <option value="Horst">Horst</option>
@@ -68,14 +68,15 @@
 <option value="MK">MK</option>
 <option value="MacDon">MacDon</option>
 <option value="Massey Ferguson">Massey Ferguson</option>
+<option value="Meridian">Meridian</option>
 <option value="Misc">Misc</option>
 <option value="Morris">Morris</option>
 <option value="New Holland">New Holland</option>
-<option value="OPI">OPI</option>
 <option value="Rightline">Rightline</option>
 <option value="Rite-Way">Rite-Way</option>
 <option value="RoGator">RoGator</option>
 <option value="SMYTH">SMYTH</option>
+<option value="Sakundiak">Sakundiak</option>
 <option value="Salford">Salford</option>
 <option value="Salford Valmar">Salford Valmar</option>
 <option value="Seed Hawk">Seed Hawk</option>
@@ -88,14 +89,13 @@
 <option value="Versatile">Versatile</option>
 <option value="Westfield">Westfield</option>
 <option value="Wilson">Wilson</option>
-<option value="Wishek">Wishek</option>
 <option value="Wolverine">Wolverine</option></select>
             <select id="province" aria-label="Filter by province"><option value="">All provinces</option><option value="AB">AB</option>
 <option value="MB">MB</option>
 <option value="SK">SK</option></select>
             <button class="btn secondary" type="button" onclick="document.getElementById('q').value='';document.getElementById('make').value='';document.getElementById('province').value='';document.getElementById('q').dispatchEvent(new Event('input'))">Reset</button>
           </div>
-          <p class="muted" style="margin:.75rem 0 0">Data refreshed 2026-11-09T07:09:30-06:00. Asking prices only — not appraisals.</p>
+          <p class="muted" style="margin:.75rem 0 0">Data refreshed 2026-11-16T07:24:22-06:00. Asking prices only — not appraisals.</p>
         </div>
       </div>
     </section>
@@ -108,16 +108,16 @@
   <div class="meta">10 listings · AB</div>
   <div class="price-row"><div>$1,058,950<div class="meta">median ask</div></div>
   <div><span>Low $1,039,000</span><br /><span>High $1,132,700</span></div></div>
-</a><a class="card model-card" data-model-card href="models/claas-lexion-8700.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS LEXION 8700 AB">
-  <h3>CLAAS LEXION 8700</h3>
-  <div class="meta">8 listings · AB</div>
-  <div class="price-row"><div>$577,900<div class="meta">median ask</div></div>
-  <div><span>Low $577,900</span><br /><span>High $839,900</span></div></div>
 </a><a class="card model-card" data-model-card href="models/macdon-fd140.html" data-make="MacDon" data-provinces="AB" data-search="MacDon FD140 AB">
   <h3>MacDon FD140</h3>
   <div class="meta">8 listings · AB</div>
   <div class="price-row"><div>$116,900<div class="meta">median ask</div></div>
   <div><span>Low $107,900</span><br /><span>High $158,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/claas-lexion-8700.html" data-make="CLAAS" data-provinces="AB" data-search="CLAAS LEXION 8700 AB">
+  <h3>CLAAS LEXION 8700</h3>
+  <div class="meta">7 listings · AB</div>
+  <div class="price-row"><div>$577,900<div class="meta">median ask</div></div>
+  <div><span>Low $577,900</span><br /><span>High $839,900</span></div></div>
 </a><a class="card model-card" data-model-card href="models/agco-gleaner-s98.html" data-make="AGCO" data-provinces="SK" data-search="AGCO Gleaner S98 SK">
   <h3>AGCO Gleaner S98</h3>
   <div class="meta">4 listings · SK</div>
@@ -148,6 +148,11 @@
   <div class="meta">3 listings · AB</div>
   <div class="price-row"><div>$573,900<div class="meta">median ask</div></div>
   <div><span>Low $568,900</span><br /><span>High $595,000</span></div></div>
+</a><a class="card model-card" data-model-card href="models/horsch-leeb-6-300vl.html" data-make="Horsch" data-provinces="AB" data-search="Horsch LEEB 6.300VL AB">
+  <h3>Horsch LEEB 6.300VL</h3>
+  <div class="meta">3 listings · AB</div>
+  <div class="price-row"><div>$709,900<div class="meta">median ask</div></div>
+  <div><span>Low $625,000</span><br /><span>High $749,000</span></div></div>
 </a><a class="card model-card" data-model-card href="models/macdon-fd135.html" data-make="MacDon" data-provinces="AB" data-search="MacDon FD135 AB">
   <h3>MacDon FD135</h3>
   <div class="meta">3 listings · AB</div>
@@ -238,11 +243,6 @@
   <div class="meta">2 listings · SK</div>
   <div class="price-row"><div>$869,000<div class="meta">median ask</div></div>
   <div><span>Low $869,000</span><br /><span>High $869,000</span></div></div>
-</a><a class="card model-card" data-model-card href="models/horsch-leeb-6-300vl.html" data-make="Horsch" data-provinces="AB" data-search="Horsch LEEB 6.300VL AB">
-  <h3>Horsch LEEB 6.300VL</h3>
-  <div class="meta">2 listings · AB</div>
-  <div class="price-row"><div>$687,000<div class="meta">median ask</div></div>
-  <div><span>Low $625,000</span><br /><span>High $749,000</span></div></div>
 </a><a class="card model-card" data-model-card href="models/john-deere-hd40r.html" data-make="John Deere" data-provinces="AB" data-search="John Deere HD40R AB">
   <h3>John Deere HD40R</h3>
   <div class="meta">2 listings · AB</div>
@@ -278,11 +278,6 @@
   <div class="meta">2 listings · SK</div>
   <div class="price-row"><div>$418,500<div class="meta">median ask</div></div>
   <div><span>Low $316,000</span><br /><span>High $521,000</span></div></div>
-</a><a class="card model-card" data-model-card href="models/10hp-3-phase-575-volt-super-flow-aeration-fan.html" data-make="10HP" data-provinces="AB" data-search="10HP 3 Phase 575 Volt Super Flow Aeration Fan AB">
-  <h3>10HP 3 Phase 575 Volt Super Flow Aeration Fan</h3>
-  <div class="meta">1 listing · AB</div>
-  <div class="price-row"><div>$2,200<div class="meta">median ask</div></div>
-  <div><span>Low $2,200</span><br /><span>High $2,200</span></div></div>
 </a><a class="card model-card" data-model-card href="models/agco-gleaner-4000.html" data-make="AGCO" data-provinces="SK" data-search="AGCO Gleaner 4000 SK">
   <h3>AGCO Gleaner 4000</h3>
   <div class="meta">1 listing · SK</div>
@@ -293,11 +288,6 @@
   <div class="meta">1 listing · MB</div>
   <div class="price-row"><div>$20,000<div class="meta">median ask</div></div>
   <div><span>Low $20,000</span><br /><span>High $20,000</span></div></div>
-</a><a class="card model-card" data-model-card href="models/baldor-industrial-electric-motor.html" data-make="Baldor" data-provinces="AB" data-search="Baldor Industrial Electric Motor AB">
-  <h3>Baldor Industrial Electric Motor</h3>
-  <div class="meta">1 listing · AB</div>
-  <div class="price-row"><div>—<div class="meta">median ask</div></div>
-  <div><span>Low —</span><br /><span>High —</span></div></div>
 </a><a class="card model-card" data-model-card href="models/bergen-7200.html" data-make="Bergen" data-provinces="SK" data-search="Bergen 7200 SK">
   <h3>Bergen 7200</h3>
   <div class="meta">1 listing · SK</div>
@@ -316,13 +306,13 @@
 </a><a class="card model-card" data-model-card href="models/bourgault-7200-84.html" data-make="Bourgault" data-provinces="MB" data-search="Bourgault 7200-84 MB">
   <h3>Bourgault 7200-84</h3>
   <div class="meta">1 listing · MB</div>
-  <div class="price-row"><div>$27,500<div class="meta">median ask</div></div>
-  <div><span>Low $27,500</span><br /><span>High $27,500</span></div></div>
-</a><a class="card model-card" data-model-card href="models/brandt-1345a-lp-u-trough-auger.html" data-make="Brandt" data-provinces="AB" data-search="Brandt 1345A LP U-Trough Auger AB">
-  <h3>Brandt 1345A LP U-Trough Auger</h3>
-  <div class="meta">1 listing · AB</div>
-  <div class="price-row"><div>$42,500<div class="meta">median ask</div></div>
-  <div><span>Low $42,500</span><br /><span>High $42,500</span></div></div>
+  <div class="price-row"><div>$15,000<div class="meta">median ask</div></div>
+  <div><span>Low $15,000</span><br /><span>High $15,000</span></div></div>
+</a><a class="card model-card" data-model-card href="models/brandt-15-x-100-swing-conveyor.html" data-make="Brandt" data-provinces="SK" data-search="Brandt 15" x 100' Swing Conveyor SK">
+  <h3>Brandt 15" x 100' Swing Conveyor</h3>
+  <div class="meta">1 listing · SK</div>
+  <div class="price-row"><div>$48,500<div class="meta">median ask</div></div>
+  <div><span>Low $48,500</span><br /><span>High $48,500</span></div></div>
 </a><a class="card model-card" data-model-card href="models/case-ih-3016.html" data-make="Case IH" data-provinces="AB" data-search="Case IH 3016 AB">
   <h3>Case IH 3016</h3>
   <div class="meta">1 listing · AB</div>
@@ -331,18 +321,18 @@
 </a><a class="card model-card" data-model-card href="models/case-ih-3020.html" data-make="Case IH" data-provinces="MB" data-search="Case IH 3020 MB">
   <h3>Case IH 3020</h3>
   <div class="meta">1 listing · MB</div>
-  <div class="price-row"><div>$29,000<div class="meta">median ask</div></div>
-  <div><span>Low $29,000</span><br /><span>High $29,000</span></div></div>
+  <div class="price-row"><div>$25,000<div class="meta">median ask</div></div>
+  <div><span>Low $25,000</span><br /><span>High $25,000</span></div></div>
 </a><a class="card model-card" data-model-card href="models/case-ih-600.html" data-make="Case IH" data-provinces="SK" data-search="Case IH 600 SK">
   <h3>Case IH 600</h3>
   <div class="meta">1 listing · SK</div>
-  <div class="price-row"><div>$319,000<div class="meta">median ask</div></div>
-  <div><span>Low $319,000</span><br /><span>High $319,000</span></div></div>
+  <div class="price-row"><div>$309,000<div class="meta">median ask</div></div>
+  <div><span>Low $309,000</span><br /><span>High $309,000</span></div></div>
 </a><a class="card model-card" data-model-card href="models/case-ih-7230.html" data-make="Case IH" data-provinces="MB" data-search="Case IH 7230 MB">
   <h3>Case IH 7230</h3>
   <div class="meta">1 listing · MB</div>
-  <div class="price-row"><div>$125,000<div class="meta">median ask</div></div>
-  <div><span>Low $125,000</span><br /><span>High $125,000</span></div></div>
+  <div class="price-row"><div>$89,900<div class="meta">median ask</div></div>
+  <div><span>Low $89,900</span><br /><span>High $89,900</span></div></div>
 </a><a class="card model-card" data-model-card href="models/case-ih-8250.html" data-make="Case IH" data-provinces="AB" data-search="Case IH 8250 AB">
   <h3>Case IH 8250</h3>
   <div class="meta">1 listing · AB</div>
@@ -351,13 +341,13 @@
 </a><a class="card model-card" data-model-card href="models/case-ih-9250.html" data-make="Case IH" data-provinces="AB" data-search="Case IH 9250 AB">
   <h3>Case IH 9250</h3>
   <div class="meta">1 listing · AB</div>
-  <div class="price-row"><div>$575,000<div class="meta">median ask</div></div>
-  <div><span>Low $575,000</span><br /><span>High $575,000</span></div></div>
+  <div class="price-row"><div>$565,000<div class="meta">median ask</div></div>
+  <div><span>Low $565,000</span><br /><span>High $565,000</span></div></div>
 </a><a class="card model-card" data-model-card href="models/case-ih-atx-700.html" data-make="Case IH" data-provinces="MB" data-search="Case IH ATX 700 MB">
   <h3>Case IH ATX 700</h3>
   <div class="meta">1 listing · MB</div>
-  <div class="price-row"><div>$38,000<div class="meta">median ask</div></div>
-  <div><span>Low $38,000</span><br /><span>High $38,000</span></div></div>
+  <div class="price-row"><div>$28,500<div class="meta">median ask</div></div>
+  <div><span>Low $28,500</span><br /><span>High $28,500</span></div></div>
 </a><a class="card model-card" data-model-card href="models/case-ih-flx4510.html" data-make="Case IH" data-provinces="MB" data-search="Case IH FLX4510 MB">
   <h3>Case IH FLX4510</h3>
   <div class="meta">1 listing · MB</div>
@@ -433,6 +423,11 @@
   <div class="meta">1 listing · AB</div>
   <div class="price-row"><div>$744,900<div class="meta">median ask</div></div>
   <div><span>Low $744,900</span><br /><span>High $744,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/convey-all-16-x-45-conveyor.html" data-make="Convey-All" data-provinces="SK" data-search="Convey-All 16" x 45' Conveyor SK">
+  <h3>Convey-All 16" x 45' Conveyor</h3>
+  <div class="meta">1 listing · SK</div>
+  <div class="price-row"><div>$29,900<div class="meta">median ask</div></div>
+  <div><span>Low $29,900</span><br /><span>High $29,900</span></div></div>
 </a><a class="card model-card" data-model-card href="models/convey-all-cs-1550.html" data-make="Convey-All" data-provinces="MB" data-search="Convey-All CS-1550 MB">
   <h3>Convey-All CS-1550</h3>
   <div class="meta">1 listing · MB</div>
@@ -453,21 +448,26 @@
   <div class="meta">1 listing · MB</div>
   <div class="price-row"><div>$55,900<div class="meta">median ask</div></div>
   <div><span>Low $55,900</span><br /><span>High $55,900</span></div></div>
-</a><a class="card model-card" data-model-card href="models/farm-king-allied-74-snowblower.html" data-make="Farm King" data-provinces="AB" data-search="Farm King Allied 74'' Snowblower AB">
-  <h3>Farm King Allied 74'' Snowblower</h3>
-  <div class="meta">1 listing · AB</div>
-  <div class="price-row"><div>$4,600<div class="meta">median ask</div></div>
-  <div><span>Low $4,600</span><br /><span>High $4,600</span></div></div>
-</a><a class="card model-card" data-model-card href="models/farmax-mi-interceptor.html" data-make="FARMAX" data-provinces="MB" data-search="FARMAX MI Interceptor MB">
-  <h3>FARMAX MI Interceptor</h3>
+</a><a class="card model-card" data-model-card href="models/farm-king-13-x-85-auger-w-xtend.html" data-make="Farm King" data-provinces="SK" data-search="Farm King 13" x 85' Auger w/ XTend SK">
+  <h3>Farm King 13" x 85' Auger w/ XTend</h3>
+  <div class="meta">1 listing · SK</div>
+  <div class="price-row"><div>$32,900<div class="meta">median ask</div></div>
+  <div><span>Low $32,900</span><br /><span>High $32,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/farm-king-13-x-95-auger.html" data-make="Farm King" data-provinces="SK" data-search="Farm King 13" x 95' Auger SK">
+  <h3>Farm King 13" x 95' Auger</h3>
+  <div class="meta">1 listing · SK</div>
+  <div class="price-row"><div>$42,900<div class="meta">median ask</div></div>
+  <div><span>Low $42,900</span><br /><span>High $42,900</span></div></div>
+</a><a class="card model-card" data-model-card href="models/farmax-mi-interceptor-prairie-sales.html" data-make="FARMAX" data-provinces="MB" data-search="FARMAX MI Interceptor | Prairie Sales MB">
+  <h3>FARMAX MI Interceptor | Prairie Sales</h3>
   <div class="meta">1 listing · MB</div>
   <div class="price-row"><div>$25,000<div class="meta">median ask</div></div>
   <div><span>Low $25,000</span><br /><span>High $25,000</span></div></div>
 </a><a class="card model-card" data-model-card href="models/fendt-516-gen3.html" data-make="Fendt" data-provinces="SK" data-search="Fendt 516 Gen3 SK">
   <h3>Fendt 516 Gen3</h3>
   <div class="meta">1 listing · SK</div>
-  <div class="price-row"><div>$269,000<div class="meta">median ask</div></div>
-  <div><span>Low $269,000</span><br /><span>High $269,000</span></div></div>
+  <div class="price-row"><div>$279,000<div class="meta">median ask</div></div>
+  <div><span>Low $279,000</span><br /><span>High $279,000</span></div></div>
 </a><a class="card model-card" data-model-card href="models/fendt-724-gen6.html" data-make="Fendt" data-provinces="SK" data-search="Fendt 724 Gen6 SK">
   <h3>Fendt 724 Gen6</h3>
   <div class="meta">1 listing · SK</div>
@@ -483,8 +483,23 @@
   <div class="meta">1 listing · SK</div>
   <div class="price-row"><div>$825,000<div class="meta">median ask</div></div>
   <div><span>Low $825,000</span><br /><span>High $825,000</span></div></div>
+</a><a class="card model-card" data-model-card href="models/forsberg-200-v-fan.html" data-make="Forsberg" data-provinces="SK" data-search="Forsberg 200-V Fan SK">
+  <h3>Forsberg 200-V Fan</h3>
+  <div class="meta">1 listing · SK</div>
+  <div class="price-row"><div>$16,000<div class="meta">median ask</div></div>
+  <div><span>Low $16,000</span><br /><span>High $16,000</span></div></div>
+</a><a class="card model-card" data-model-card href="models/freightliner-fld-120.html" data-make="FREIGHTLINER" data-provinces="MB" data-search="FREIGHTLINER FLD 120 MB">
+  <h3>FREIGHTLINER FLD 120</h3>
+  <div class="meta">1 listing · MB</div>
+  <div class="price-row"><div>$62,500<div class="meta">median ask</div></div>
+  <div><span>Low $62,500</span><br /><span>High $62,500</span></div></div>
 </a><a class="card model-card" data-model-card href="models/frontier-72-box-scraper.html" data-make="Frontier" data-provinces="SK" data-search="Frontier 72" Box Scraper SK">
   <h3>Frontier 72" Box Scraper</h3>
+  <div class="meta">1 listing · SK</div>
+  <div class="price-row"><div>—<div class="meta">median ask</div></div>
+  <div><span>Low —</span><br /><span>High —</span></div></div>
+</a><a class="card model-card" data-model-card href="models/frost-fighter-heater.html" data-make="Frost" data-provinces="SK" data-search="Frost Fighter Heater SK">
+  <h3>Frost Fighter Heater</h3>
   <div class="meta">1 listing · SK</div>
   <div class="price-row"><div>—<div class="meta">median ask</div></div>
   <div><span>Low —</span><br /><span>High —</span></div></div>
@@ -498,16 +513,6 @@
   <div class="meta">1 listing · SK</div>
   <div class="price-row"><div>$23,500<div class="meta">median ask</div></div>
   <div><span>Low $23,500</span><br /><span>High $23,500</span></div></div>
-</a><a class="card model-card" data-model-card href="models/honda-gx-160-engine.html" data-make="Honda" data-provinces="AB" data-search="Honda GX 160 Engine AB">
-  <h3>Honda GX 160 Engine</h3>
-  <div class="meta">1 listing · AB</div>
-  <div class="price-row"><div>$1,250<div class="meta">median ask</div></div>
-  <div><span>Low $1,250</span><br /><span>High $1,250</span></div></div>
-</a><a class="card model-card" data-model-card href="models/honda-gx-200-engine.html" data-make="Honda" data-provinces="AB" data-search="Honda GX 200 Engine AB">
-  <h3>Honda GX 200 Engine</h3>
-  <div class="meta">1 listing · AB</div>
-  <div class="price-row"><div>$1,450<div class="meta">median ask</div></div>
-  <div><span>Low $1,450</span><br /><span>High $1,450</span></div></div>
 </a><a class="card model-card" data-model-card href="models/honey-bee-240-airflex-nxt.html" data-make="Honey" data-provinces="SK" data-search="Honey Bee 240 AirFlex NXT SK">
   <h3>Honey Bee 240 AirFlex NXT</h3>
   <div class="meta">1 listing · SK</div>
@@ -516,13 +521,13 @@
 </a><a class="card model-card" data-model-card href="models/horsch-joker-rx30.html" data-make="Horsch" data-provinces="AB" data-search="Horsch JOKER RX30 AB">
   <h3>Horsch JOKER RX30</h3>
   <div class="meta">1 listing · AB</div>
-  <div class="price-row"><div>$895,900<div class="meta">median ask</div></div>
-  <div><span>Low $895,900</span><br /><span>High $895,900</span></div></div>
+  <div class="price-row"><div>$709,900<div class="meta">median ask</div></div>
+  <div><span>Low $709,900</span><br /><span>High $709,900</span></div></div>
 </a><a class="card model-card" data-model-card href="models/horsch-joker-rx35.html" data-make="Horsch" data-provinces="AB" data-search="Horsch JOKER RX35 AB">
   <h3>Horsch JOKER RX35</h3>
   <div class="meta">1 listing · AB</div>
-  <div class="price-row"><div>$895,900<div class="meta">median ask</div></div>
-  <div><span>Low $895,900</span><br /><span>High $895,900</span></div></div>
+  <div class="price-row"><div>$709,900<div class="meta">median ask</div></div>
+  <div><span>Low $709,900</span><br /><span>High $709,900</span></div></div>
 </a><a class="card model-card" data-model-card href="models/horsch-leeb-8-460vl.html" data-make="Horsch" data-provinces="AB" data-search="Horsch LEEB 8.460VL AB">
   <h3>Horsch LEEB 8.460VL</h3>
   <div class="meta">1 listing · AB</div>
@@ -531,13 +536,13 @@
 </a><a class="card model-card" data-model-card href="models/horsch-maestro-3215.html" data-make="Horsch" data-provinces="AB" data-search="Horsch MAESTRO 3215 AB">
   <h3>Horsch MAESTRO 3215</h3>
   <div class="meta">1 listing · AB</div>
-  <div class="price-row"><div>$895,900<div class="meta">median ask</div></div>
-  <div><span>Low $895,900</span><br /><span>High $895,900</span></div></div>
+  <div class="price-row"><div>$709,900<div class="meta">median ask</div></div>
+  <div><span>Low $709,900</span><br /><span>High $709,900</span></div></div>
 </a><a class="card model-card" data-model-card href="models/horsch-maestro-4815.html" data-make="Horsch" data-provinces="AB" data-search="Horsch MAESTRO 4815 AB">
   <h3>Horsch MAESTRO 4815</h3>
   <div class="meta">1 listing · AB</div>
-  <div class="price-row"><div>$895,900<div class="meta">median ask</div></div>
-  <div><span>Low $895,900</span><br /><span>High $895,900</span></div></div>
+  <div class="price-row"><div>$709,900<div class="meta">median ask</div></div>
+  <div><span>Low $709,900</span><br /><span>High $709,900</span></div></div>
 </a><a class="card model-card" data-model-card href="models/horst-hd5500.html" data-make="Horst" data-provinces="AB" data-search="Horst HD5500 AB">
   <h3>Horst HD5500</h3>
   <div class="meta">1 listing · AB</div>
@@ -556,8 +561,8 @@
 </a><a class="card model-card" data-model-card href="models/jbs-vmwb-2648-34.html" data-make="JBS" data-provinces="MB" data-search="JBS VMWB 2648-34 MB">
   <h3>JBS VMWB 2648-34</h3>
   <div class="meta">1 listing · MB</div>
-  <div class="price-row"><div>$7,500<div class="meta">median ask</div></div>
-  <div><span>Low $7,500</span><br /><span>High $7,500</span></div></div>
+  <div class="price-row"><div>—<div class="meta">median ask</div></div>
+  <div><span>Low —</span><br /><span>High —</span></div></div>
 </a><a class="card model-card" data-model-card href="models/john-deere-1835.html" data-make="John Deere" data-provinces="AB" data-search="John Deere 1835 AB">
   <h3>John Deere 1835</h3>
   <div class="meta">1 listing · AB</div>
@@ -566,8 +571,8 @@
 </a><a class="card model-card" data-model-card href="models/john-deere-33-7.html" data-make="John Deere" data-provinces="AB" data-search="John Deere 33.7 AB">
   <h3>John Deere 33.7</h3>
   <div class="meta">1 listing · AB</div>
-  <div class="price-row"><div>$285,000<div class="meta">median ask</div></div>
-  <div><span>Low $285,000</span><br /><span>High $285,000</span></div></div>
+  <div class="price-row"><div>$265,000<div class="meta">median ask</div></div>
+  <div><span>Low $265,000</span><br /><span>High $265,000</span></div></div>
 </a><a class="card model-card" data-model-card href="models/john-deere-3520.html" data-make="John Deere" data-provinces="SK" data-search="John Deere 3520 SK">
   <h3>John Deere 3520</h3>
   <div class="meta">1 listing · SK</div>
@@ -586,8 +591,8 @@
 </a><a class="card model-card" data-model-card href="models/john-deere-7250r.html" data-make="John Deere" data-provinces="MB" data-search="John Deere 7250R MB">
   <h3>John Deere 7250R</h3>
   <div class="meta">1 listing · MB</div>
-  <div class="price-row"><div>$173,500<div class="meta">median ask</div></div>
-  <div><span>Low $173,500</span><br /><span>High $173,500</span></div></div>
+  <div class="price-row"><div>$165,000<div class="meta">median ask</div></div>
+  <div><span>Low $165,000</span><br /><span>High $165,000</span></div></div>
 </a><a class="card model-card" data-model-card href="models/john-deere-745fd.html" data-make="John Deere" data-provinces="MB" data-search="John Deere 745FD MB">
   <h3>John Deere 745FD</h3>
   <div class="meta">1 listing · MB</div>
@@ -598,11 +603,6 @@
   <div class="meta">1 listing · SK</div>
   <div class="price-row"><div>$89,000<div class="meta">median ask</div></div>
   <div><span>Low $89,000</span><br /><span>High $89,000</span></div></div>
-</a><a class="card model-card" data-model-card href="models/john-deere-9400.html" data-make="John Deere" data-provinces="SK" data-search="John Deere 9400 SK">
-  <h3>John Deere 9400</h3>
-  <div class="meta">1 listing · SK</div>
-  <div class="price-row"><div>$99,000<div class="meta">median ask</div></div>
-  <div><span>Low $99,000</span><br /><span>High $99,000</span></div></div>
 </a>
         </div>
         <p id="empty-state" class="muted hidden">No models match those filters.</p>
@@ -617,7 +617,7 @@
           <table>
             <thead><tr><th>Province</th><th>Listings tracked</th><th>Median ask</th><th>Range</th></tr></thead>
             <tbody>
-              <tr><td>Alberta</td><td>2,590</td><td>$139,900</td><td>$10,000 – $1,665,000</td></tr><tr><td>Saskatchewan</td><td>1,282</td><td>$151,000</td><td>$10,495 – $1,096,800</td></tr><tr><td>British Columbia</td><td>1,020</td><td>$95,000</td><td>$10,000 – $1,395,000</td></tr><tr><td>Manitoba</td><td>407</td><td>$67,700</td><td>$10,000 – $765,000</td></tr>
+              <tr><td>Alberta</td><td>2,636</td><td>$135,000</td><td>$10,000 – $1,665,000</td></tr><tr><td>Saskatchewan</td><td>1,299</td><td>$154,900</td><td>$10,495 – $5,750,000</td></tr><tr><td>British Columbia</td><td>1,021</td><td>$95,000</td><td>$10,000 – $5,750,000</td></tr><tr><td>Manitoba</td><td>416</td><td>$65,050</td><td>$10,000 – $765,000</td></tr>
             </tbody>
           </table>
         </div>

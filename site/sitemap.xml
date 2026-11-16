@@ -4,14 +4,15 @@
   <url><loc>/for-dealers.html</loc></url>
   <url><loc>/about.html</loc></url>
   <url><loc>/models/john-deere-x9-1000.html</loc></url>
-  <url><loc>/models/claas-lexion-8700.html</loc></url>
   <url><loc>/models/macdon-fd140.html</loc></url>
+  <url><loc>/models/claas-lexion-8700.html</loc></url>
   <url><loc>/models/agco-gleaner-s98.html</loc></url>
   <url><loc>/models/claas-convio-1230.html</loc></url>
   <url><loc>/models/fendt-ftc9.html</loc></url>
   <url><loc>/models/honey-bee-240-airflex.html</loc></url>
   <url><loc>/models/claas-jaguar-960.html</loc></url>
   <url><loc>/models/claas-jaguar-970.html</loc></url>
+  <url><loc>/models/horsch-leeb-6-300vl.html</loc></url>
   <url><loc>/models/macdon-fd135.html</loc></url>
   <url><loc>/models/macdon-fd250.html</loc></url>
   <url><loc>/models/new-holland-cr8-90.html</loc></url>
@@ -30,7 +31,6 @@
   <url><loc>/models/convey-all-cst-1500.html</loc></url>
   <url><loc>/models/degelman-sm7000.html</loc></url>
   <url><loc>/models/fendt-rg937.html</loc></url>
-  <url><loc>/models/horsch-leeb-6-300vl.html</loc></url>
   <url><loc>/models/john-deere-hd40r.html</loc></url>
   <url><loc>/models/john-deere-n534f.html</loc></url>
   <url><loc>/models/john-deere-s790.html</loc></url>
@@ -38,15 +38,13 @@
   <url><loc>/models/massey-ferguson-1316s.html</loc></url>
   <url><loc>/models/misc-rg1300c.html</loc></url>
   <url><loc>/models/rogator-rg1100c.html</loc></url>
-  <url><loc>/models/10hp-3-phase-575-volt-super-flow-aeration-fan.html</loc></url>
   <url><loc>/models/agco-gleaner-4000.html</loc></url>
   <url><loc>/models/apv-ps800m1.html</loc></url>
-  <url><loc>/models/baldor-industrial-electric-motor.html</loc></url>
   <url><loc>/models/bergen-7200.html</loc></url>
   <url><loc>/models/big-dog-blackjack.html</loc></url>
   <url><loc>/models/bourgault-550st.html</loc></url>
   <url><loc>/models/bourgault-7200-84.html</loc></url>
-  <url><loc>/models/brandt-1345a-lp-u-trough-auger.html</loc></url>
+  <url><loc>/models/brandt-15-x-100-swing-conveyor.html</loc></url>
   <url><loc>/models/case-ih-3016.html</loc></url>
   <url><loc>/models/case-ih-3020.html</loc></url>
   <url><loc>/models/case-ih-600.html</loc></url>
@@ -69,21 +67,24 @@
   <url><loc>/models/claas-xerion-4500.html</loc></url>
   <url><loc>/models/claas-xerion-5000.html</loc></url>
   <url><loc>/models/claas-xerion12-650.html</loc></url>
+  <url><loc>/models/convey-all-16-x-45-conveyor.html</loc></url>
   <url><loc>/models/convey-all-cs-1550.html</loc></url>
   <url><loc>/models/convey-all-csc-1545.html</loc></url>
   <url><loc>/models/convey-all-cst40-c.html</loc></url>
   <url><loc>/models/corn-husker-800hfa.html</loc></url>
-  <url><loc>/models/farm-king-allied-74-snowblower.html</loc></url>
-  <url><loc>/models/farmax-mi-interceptor.html</loc></url>
+  <url><loc>/models/farm-king-13-x-85-auger-w-xtend.html</loc></url>
+  <url><loc>/models/farm-king-13-x-95-auger.html</loc></url>
+  <url><loc>/models/farmax-mi-interceptor-prairie-sales.html</loc></url>
   <url><loc>/models/fendt-516-gen3.html</loc></url>
   <url><loc>/models/fendt-724-gen6.html</loc></url>
   <url><loc>/models/fendt-724-gen7.html</loc></url>
   <url><loc>/models/fendt-ftc8.html</loc></url>
+  <url><loc>/models/forsberg-200-v-fan.html</loc></url>
+  <url><loc>/models/freightliner-fld-120.html</loc></url>
   <url><loc>/models/frontier-72-box-scraper.html</loc></url>
+  <url><loc>/models/frost-fighter-heater.html</loc></url>
   <url><loc>/models/hla-la-thmbhvsg96maq.html</loc></url>
   <url><loc>/models/hla-sb4203w.html</loc></url>
-  <url><loc>/models/honda-gx-160-engine.html</loc></url>
-  <url><loc>/models/honda-gx-200-engine.html</loc></url>
   <url><loc>/models/honey-bee-240-airflex-nxt.html</loc></url>
   <url><loc>/models/horsch-joker-rx30.html</loc></url>
   <url><loc>/models/horsch-joker-rx35.html</loc></url>
@@ -102,5 +103,4 @@
   <url><loc>/models/john-deere-7250r.html</loc></url>
   <url><loc>/models/john-deere-745fd.html</loc></url>
   <url><loc>/models/john-deere-8970.html</loc></url>
-  <url><loc>/models/john-deere-9400.html</loc></url>
 </urlset>
